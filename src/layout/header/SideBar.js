@@ -9,7 +9,7 @@ const SideBar = () => {
             <span className="fa fa-times" />
           </div>
           <div className="title">
-            <h4>Get Appointment</h4>
+            <h4>Get in touch</h4>
           </div>
           {/*Appointment Form*/}
           <div className="appointment-form">
@@ -44,17 +44,17 @@ const SideBar = () => {
           </div>
           {/*Social Icons*/}
           <div className="social-style-one">
-            <a href="#">
-              <i className="fab fa-twitter" />
+            <a href="https://www.linkedin.com/in/abdeljalil-r-02b3a91b3/">
+              <i className="fab fa-linkedin" />
             </a>
-            <a href="#">
-              <i className="fab fa-facebook-f" />
+            <a href="https://github.com/AbdeljalilRajli">
+              <i className="fab fa-github" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/rajli_abdeljalil/">
               <i className="fab fa-instagram" />
             </a>
             <a href="#">
-              <i className="fab fa-pinterest-p" />
+              <i className="fab fa-twitter" />
             </a>
           </div>
         </div>

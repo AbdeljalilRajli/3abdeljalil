@@ -223,7 +223,7 @@ const Index4OnePage = () => {
               </div>
             </div>
             <div className="col-xl-6 col-lg-4 text-lg-end">
-              <Link legacyBehavior href="/projects">
+              <Link legacyBehavior href="#">
                 <a className="explore-more rmb-50 wow fadeInRight delay-0-2s">
                   <i className="fas fa-arrow-right" /> <span>Explore more</span>
                 </a>
@@ -235,7 +235,7 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-2s">
                 <span className="serial-number">01</span>
                 <h4>
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="https://www.aquilla.io/">
                     <a>Aquilla - IT specialized recruitment agency</a>
                   </Link>
                 </h4>
@@ -256,7 +256,7 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
                 <span className="serial-number">02</span>
                 <h4>
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="#">
                     <a>Drink-B Energy drink store Figma Template</a>
                   </Link>
                 </h4>
@@ -277,7 +277,7 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-2s">
                 <span className="serial-number">03</span>
                 <h4>
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="https://www.iboostmorocco.ma/">
                     <a>Iboost Morocco - Digital Marketing Agency</a>
                   </Link>
                 </h4>
@@ -298,7 +298,7 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
                 <span className="serial-number">04</span>
                 <h4>
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="https://www.para-organica.ma/">
                     <a>Para Organica - Online non-prescription pharmacy</a>
                   </Link>
                 </h4>
@@ -319,7 +319,7 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-2s">
                 <span className="serial-number">05</span>
                 <h4>
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="https://rajli.tech/">
                     <a>21thirteen - Abdeljalil Rajli NestJs Portfolio</a>
                   </Link>
                 </h4>
@@ -340,7 +340,7 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
                 <span className="serial-number">06</span>
                 <h4>
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="https://mousannifhajar.com/">
                     <a>Mousannif Hajar - Associate professor and coordinator at FSSM</a>
                   </Link>
                 </h4>

@@ -22,13 +22,13 @@ const DefaultFooter = () => {
             </div>
             <div className="col-lg-8 text-lg-end">
               <div className="social-style-four mb-20 wow fadeInLeft delay-0-2s animated">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/abdeljalil-r-02b3a91b3/">
                   <i className="fab fa-linkedin" /> <span>LINKEDIN</span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/AbdeljalilRajli">
                   <i className="fab fa-github" /> <span>GITHUB</span>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/rajli_abdeljalil/">
                   <i className="fab fa-instagram" /> <span>INSTAGRAM</span>
                 </a>
                 <a href="#">
@@ -47,13 +47,13 @@ const DefaultFooter = () => {
               <div className="footer-contact-info wow fadeInUp delay-0-3s animated">
                 <a
                   className="theme-btn style-three"
-                  href="mailto:support@gmail.com"
+                  href="mailto:rajli.contact@gmail.com"
                 >
                   rajli.contact@gmail.com <i className="far fa-arrow-right" />
                 </a>
                 <a
                   className="theme-btn style-three phone-number"
-                  href="callto:+000(123)45688"
+                  href="callto:+212670277524"
                 >
                   +212 (670) 277 524 <i className="far fa-arrow-right" />
                 </a>
