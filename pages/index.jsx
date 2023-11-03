@@ -1,10 +1,7 @@
 
-
-import YgencyAccordion from "@/src/components/YgencyAccordion";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 import { useState } from "react";
-import { Accordion, Nav, Tab } from "react-bootstrap";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
@@ -277,13 +274,13 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-2s">
                 <span className="serial-number">03</span>
                 <h4>
-                  <Link legacyBehavior href="https://www.iboostmorocco.ma/">
-                    <a>Iboost Morocco - Digital Marketing Agency</a>
+                  <Link legacyBehavior href="https://glowink.be/">
+                    <a>Glowin'k - Permanent make-up & hair loss solutions</a>
                   </Link>
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/Iboost-Mockup-min.webp"
+                    src="assets/images/projects/glowink-mockup.webp"
                     alt="Project TimeLine Image"
                   />
                 </div>
@@ -340,13 +337,13 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
                 <span className="serial-number">06</span>
                 <h4>
-                  <Link legacyBehavior href="https://mousannifhajar.com/">
-                    <a>Mousannif Hajar - Associate professor and coordinator at FSSM</a>
+                  <Link legacyBehavior href="https://www.helloeve.ma/">
+                    <a>HelloEve - accessories & jewelries store online</a>
                   </Link>
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/Hajar-Mousannif-Mockup.webp"
+                    src="assets/images/projects/helloeve-mockup.webp"
                     alt="Project TimeLine Image"
                   />
                 </div>
