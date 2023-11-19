@@ -38,7 +38,7 @@ const DefaultFooter = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row" id="contact">
           <div className="col-lg-12">
             <div className="pt-80 pb-60" style={{textAlign:"center"}}>
               <div className="lets-work mb-50 wow fadeInUp delay-0-2s animated">
@@ -55,7 +55,7 @@ const DefaultFooter = () => {
                   className="theme-btn style-three phone-number"
                   href="callto:+212670277524"
                 >
-                  +212 (670) 277 524 <i className="far fa-arrow-right" />
+                  +212 6 70 27 75 24 <i className="far fa-arrow-right" />
                 </a>
               </div>
             </div>

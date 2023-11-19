@@ -26,16 +26,16 @@ const Header = ({ singleMenu }) => {
               <Nav singleMenu={singleMenu} />
               {/* Main Menu End*/}
             </div>
-            {/* Nav Search */}
+            {/* Nav Search 
             <NavSearch />
-            {/* Menu Button */}
+             Menu Button */}
             <div className="menu-btns ms-lg-auto">
-              <Link legacyBehavior href="/">
+              <Link legacyBehavior href="#contact">
                 <a className="theme-btn style-two me-4">
                   Let’s Talk <i className="far fa-arrow-right" />
                 </a>
               </Link>
-              {/* menu sidbar */}
+              {/* menu sidbar 
               <div className="menu-sidebar">
                 <button className="bg-transparent">
                   <img
@@ -43,7 +43,7 @@ const Header = ({ singleMenu }) => {
                     alt="Toggler"
                   />
                 </button>
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>
