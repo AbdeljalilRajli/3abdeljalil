@@ -189,7 +189,7 @@ const Index4OnePage = () => {
                   <span className="text">Drupal</span>
                 </div>
                 <div className="skill-item">
-                  <img src="assets/images/skills/BootStrap.png" alt="Skill Icon" />
+                  <img src="assets/images/skills/bootstrap.png" alt="Skill Icon" />
                   <span className="text">Bootstrap</span>
                 </div>
                 <div className="skill-item">
@@ -487,7 +487,7 @@ const Index4OnePage = () => {
         <div className="container-fluid">
           <div className="headline-text style-three marquee pb-60">
             <span>
-              <span>Get Start Your Projects</span>
+              <span>turns coffee into code . turns coffee into code . turns coffee into code . turns coffee into code . turns coffee into code</span>
             </span>
           </div>
         </div>

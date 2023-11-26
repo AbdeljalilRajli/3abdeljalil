@@ -4387,8 +4387,8 @@ h6, .h6 {
       font-size: 40px; } }
   .headline-text > span {
     padding-left: 100%;
-    -webkit-animation: marquee 15s linear infinite;
-    animation: marquee 15s linear infinite; }
+    -webkit-animation: marquee 25s linear infinite;
+    animation: marquee 25s linear infinite; }
     .headline-text > span span {
       opacity: 1;
       color: transparent;
