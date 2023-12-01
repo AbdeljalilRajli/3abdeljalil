@@ -31,7 +31,7 @@ const DefaultFooter = () => {
                 <a href="https://www.instagram.com/rajli_abdeljalil/">
                   <i className="fab fa-instagram" /> <span>INSTAGRAM</span>
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/RajliAbdel42519">
                   <i className="fab fa-twitter" /> <span>TWITTER</span>
                 </a>
               </div>

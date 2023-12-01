@@ -13,7 +13,7 @@ const Header = ({ singleMenu }) => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/2113-logo.png"
+                      src="assets/images/logos/abdeljalil-main-logo.png"
                       alt="Logo"
                       title="Logo"
                     />

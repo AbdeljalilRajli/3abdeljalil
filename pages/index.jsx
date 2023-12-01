@@ -189,7 +189,7 @@ const Index4OnePage = () => {
                   <span className="text">Drupal</span>
                 </div>
                 <div className="skill-item">
-                  <img src="assets/images/skills/bootstrap.png" alt="Skill Icon" />
+                  <img src="assets/images/skills/bootstrap.PNG" alt="Skill Icon" />
                   <span className="text">Bootstrap</span>
                 </div>
                 <div className="skill-item">
