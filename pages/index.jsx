@@ -26,7 +26,7 @@ const Index4OnePage = () => {
       {/* Hero Section Start */}
       <section
         id="home"
-        className="hero-area-four pt-250 rpt-120 pb-220 rpb-10 rel z-1"
+        className="hero-area-four pt-250 rpt-120 pb-220 rpb-50 rel z-1"
       >
         <div className="container container-1620 rel z-1">
           <div className="hero-four-content rel mt-50 text-center">
@@ -190,7 +190,7 @@ const Index4OnePage = () => {
                 </div>
                 <div className="skill-item">
                   <img
-                    src="assets/images/skills/Bootstrap.png"
+                    src="assets/images/skills/Bt.png"
                     alt="Skill Icon"
                   />
                   <span className="text">Bootstrap</span>

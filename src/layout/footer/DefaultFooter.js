@@ -15,7 +15,7 @@ const DefaultFooter = () => {
               <div className="footer-logo mb-20 wow fadeInRight delay-0-2s animated">
                 <Link legacyBehavior href="/">
                   <a>
-                    <img src="assets/images/logos/2113-logo.png" alt="Logo" />
+                    <img src="assets/images/logos/abdeljalil-main-logo.png" alt="Logo" />
                   </a>
                 </Link>
               </div>

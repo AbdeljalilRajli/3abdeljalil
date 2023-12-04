@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Nav from "./Nav";
-import NavSearch from "./NavSearch";
+
 const Header = ({ singleMenu }) => {
   return (
     <header className="main-header menu-absolute">
@@ -30,10 +30,10 @@ const Header = ({ singleMenu }) => {
             <NavSearch />
              Menu Button */}
             <div className="menu-btns ms-lg-auto">
-              <Link legacyBehavior href="#contact">
-                <a className="theme-btn style-two me-4">
-                  Let’s Talk <i className="far fa-arrow-right" />
-                </a>
+              <Link href="#contact">
+                <button class="button type1">
+                  <span class="btn-txt">Let's Talk</span>
+                </button>
               </Link>
               {/* menu sidbar 
               <div className="menu-sidebar">
