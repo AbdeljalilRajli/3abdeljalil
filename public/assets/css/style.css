@@ -4094,8 +4094,8 @@ h6, .h6 {
       font-size: 40px; } }
   .headline-text > span {
     padding-left: 100%;
-    -webkit-animation: marquee 25s linear infinite;
-    animation: marquee 25s linear infinite; }
+    -webkit-animation: marquee 45s linear infinite;
+    animation: marquee 45s linear infinite; }
     .headline-text > span span {
       opacity: 1;
       color: transparent;
@@ -4116,6 +4116,11 @@ h6, .h6 {
   @media only screen and (min-width: 992px) {
     .headline-text.style-three {
       font-size: 120px; } }
+
+  .headline-text .coffee-bean-text{
+    display: flex;
+    align-items: center;
+  }
 
 .headline-wrap {
   display: -webkit-box;
@@ -8789,3 +8794,9 @@ blockquote {
     color: var(--ygency-primary-color); }
   .footer-five .footer-info .list-style-two li a:hover {
     font-size: 24px; }
+
+/*-------------- SVG Coffee Bean ------------*/
+.coffee-bean-text svg{
+  margin-left: -25px;
+  margin-right: -25px;
+}
