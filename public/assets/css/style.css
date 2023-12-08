@@ -73,6 +73,19 @@ body {
   --ygency-secondary-rgb: 255,255,255;
   --ygency-tertiary-rgb: 22,22,28; }
 
+/* Change Select text color ----*/
+::-moz-selection { /* Code for Firefox */
+  color: transparent;
+  text-shadow: 0 0 0px #6a98f0;
+  background: transparent;
+}
+
+::selection {
+  color: transparent;
+  text-shadow: 0 0 0px #6a98f0;
+  background: transparent;
+}
+
 a {
   color: var(--ygency-body-color);
   cursor: pointer;
@@ -3417,11 +3430,11 @@ h6, .h6 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
-  .menu-btns .theme-btn {
+.menu-btns .theme-btn {
     padding-top: 9px;
     padding-bottom: 9px; }
-    @media only screen and (max-width: 1199px) {
-      .menu-btns .theme-btn {
+@media only screen and (max-width: 1199px) {
+      .menu-btns {
         display: none; } }
 
 /* Let's Talk BTN */

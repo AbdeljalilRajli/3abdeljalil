@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Nav from "./Nav";
+import styles from './availabledot.module.css'
 
 const Header = ({ singleMenu }) => {
   return (
@@ -29,21 +30,18 @@ const Header = ({ singleMenu }) => {
             {/* Nav Search 
             <NavSearch />
              Menu Button */}
+
             <div className="menu-btns ms-lg-auto">
-              <Link href="#contact">
-                <button class="button type1">
-                  <span class="btn-txt">Let's Talk</span>
-                </button>
-              </Link>
-              {/* menu sidbar 
-              <div className="menu-sidebar">
-                <button className="bg-transparent">
-                  <img
-                    src="assets/images/icons/toggler-white.svg"
-                    alt="Toggler"
-                  />
-                </button>
-              </div>*/}
+
+              {/*------ Glowing Dot-----------*/}
+              <div className={styles.AvailableBox}>
+                <span className={styles.AvailableText}>Available</span>
+                <div class={styles.loading_dots}>
+                  <div class={styles.loading_dots_dot}></div>
+                </div>
+              </div>
+              {/*------ Glowing Dot-----------*/}
+              
             </div>
           </div>
         </div>
