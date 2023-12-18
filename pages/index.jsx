@@ -113,7 +113,78 @@ const Index4OnePage = () => {
       </motion.section>
       {/* About Us Area end */}
 
-      {/* My Skills Area start */}
+      {/* Skills Area Start */}
+      <section className="skills-area pt-100 pb-80 rpt-10 rel z-1">
+        <div className="container container-1590">
+          <div className="row justify-content-center">
+            <div className="col-lg-6">
+              <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
+              <span className="sub-title mb-15">
+                    My Skills &amp; Experience
+                  </span>
+                <h2>Creating Engaging Web Experience</h2>
+              </div>
+            </div>
+          </div>
+          <div className="skills-wrap wow fadeInUp delay-0-2s">
+            <div className="skill-item">
+              <img src="assets/images/skills/HTML.png" alt="Skill Icon" />
+              <span className="text">HTML</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/CSS.png" alt="Skill Icon" />
+              <span className="text">CSS</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/JavaScript.png" alt="Skill Icon" />
+              <span className="text">JavaScript</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/React.png" alt="Skill Icon" />
+                <span className="text">React</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/NextJs.png" alt="Skill Icon" />
+              <span className="text">Next.js</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/NodeJs.png" alt="Skill Icon" />
+              <span className="text">node.js</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/PHP.png" alt="Skill Icon" />
+                <span className="text">PHP</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/MySql.png" alt="Skill Icon" />
+              <span className="text">MySql</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/WordPress.png" alt="Skill Icon" />
+              <span className="text">WordPress</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/Git.png" alt="Skill Icon" />
+              <span className="text">Git</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/Drupal.png" alt="Skill Icon" />
+              <span className="text">Drupal</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/Bt.png" alt="Skill Icon" />
+                <span className="text">Bootstrap</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/TailwindCSS.png" alt="Skill Icon" />
+              <span className="text">Tailwind CSS</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Skills Area End */}
+
+      {/* My Old Skills Area start 
       <section className="my-skills-area rel z-1" id="skills">
         <div className="container pt-40 pb-40 container-1290">
           <div className="row gap-20 justify-content-between align-items-center">
@@ -207,7 +278,7 @@ const Index4OnePage = () => {
           </div>
         </div>
       </section>
-      {/* My Skills Area end */}
+       My Old Skills Area end */}
 
       {/* Project Timeline-two Area start */}
       <section
