@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {/* Title */}
-        <title>Abdeljalil Rajli - Frontend developer</title>
+        <title>Abdeljalil Rajli - Full Stack Developer</title>
         {/* Favicon Icon */}
         <link
           rel="shortcut icon"

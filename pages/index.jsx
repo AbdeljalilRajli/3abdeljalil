@@ -23,6 +23,7 @@ const Index4OnePage = () => {
   const [active, setActive] = useState("collapse0");
   return (
     <Layout header={2} singleMenu footer={1}>
+      
       {/* Hero Section Start */}
       <section
         id="home"
@@ -44,13 +45,13 @@ const Index4OnePage = () => {
               </span>
               <span className="marquee-wrap">
                 <span className="marquee-inner two">
-                  Frontend <span> Developer.</span>
+                  Full Stack <span> Developer.</span>
                 </span>
                 <span className="marquee-inner two">
-                  Frontend <span> Developer.</span>
+                  Full Stack <span> Developer.</span>
                 </span>
                 <span className="marquee-inner two">
-                  Frontend <span> Developer.</span>
+                  Full Stack <span> Developer.</span>
                 </span>
               </span>
               <span className="marquee-wrap">
@@ -92,10 +93,10 @@ const Index4OnePage = () => {
                   <div className="about-four-content rmb-55 wow fadeInUp delay-0-2s">
                     <div className="section-title mb-25">
                       <span className="sub-title mb-15">About Me</span>
-                      <h2>Experienced <br></br>Frontend Developer</h2>
+                      <h2>Experienced <br></br>Full Stack Developer</h2>
                     </div>
                       <p>
-                      As a dedicated frontend developer, I am passionate about crafting digital experiences 
+                      As a dedicated full-stack developer, I am passionate about crafting digital experiences 
                       that blend aesthetics with functionality. With a keen eye for design and a strong foundation 
                       in web technologies, I bring creativity and technical expertise to every project I undertake. 
                       My journey in the world of web development has equipped me with the skills to turn ideas into 
@@ -197,7 +198,7 @@ const Index4OnePage = () => {
                   <h2>Creating Engaging Web Experience</h2>
                 </div>
                 <p>
-                As a frontend developer, I possess a diverse set of skills that enable me to create 
+                As a Full Stack developer, I possess a diverse set of skills that enable me to create 
                 captivating and seamless user experiences. With a deep understanding of modern web 
                 technologies and a passion for clean code, I strive to deliver high-quality solutions 
                 that align with the latest industry standards. Here are some of my core skills : 
