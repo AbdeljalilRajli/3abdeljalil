@@ -66,7 +66,7 @@ const DefaultFooter = () => {
             <div className="col-xl-12 col-lg-12">
               <div className="copyright-text text-lg-end pt-40 pb-35 rpt-10 wow fadeInLeft delay-0-2s animated">
                 <p>
-                  Copyright @2023,{" "}
+                  Copyright @2024,{" "}
                   <Link legacyBehavior href="/">
                     <a>Abdeljalil Rajli</a>
                   </Link>{" "}
