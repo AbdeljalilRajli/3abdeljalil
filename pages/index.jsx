@@ -37,7 +37,7 @@ const Index4OnePage = () => {
               user-facing interfaces and robust back-end systems.</p>
             </div>
             <div className="col-lg-6">
-              <img className="hero_img" src="assets/images/hero/code-illustration 1.png" alt="Code-illustration" />
+              <img className="hero_img shadowfilter" src="assets/images/hero/code-illustration 2.png" alt="Code-illustration" />
             </div>
           </div>
           <div className="cta-row">
