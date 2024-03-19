@@ -41,9 +41,11 @@ const Index4OnePage = () => {
             </div>
           </div>
           <div className="cta-row">
+            <a href="#about">
               <button class="btn">
                 <img className="arrow-down" src="assets/images/icons/down-arrow.svg" alt="arrow-down-icon" />
               </button>
+            </a>
           </div>
         </div>
         
