@@ -24,7 +24,31 @@ const Index4OnePage = () => {
   return (
     <Layout header={2} singleMenu footer={1}>
       
-      {/* Hero Section Start */}
+      <section
+        id="home"
+        className="hero-area-four pt-100 rpt-120 pb-120 rpb-50 rel z-1"
+      >
+        <div className="hero-four-content container container-1290 rel z-1">
+          <div className="row gap-20 justify-content-between align-items-center">
+            <div className="col-lg-6">
+              <h1 className="hero-section_title1">FULLSTACK</h1>
+              <h1 className="hero-section_title2">DEVELOPER</h1>
+              <p>Enthusiastic full-stack developer with expertise in crafting both 
+              user-facing interfaces and robust back-end systems.</p>
+            </div>
+            <div className="col-lg-6">
+              <img className="hero_img" src="assets/images/hero/code-illustration 1.png" alt="Code-illustration" />
+            </div>
+          </div>
+          <div className="cta-row">
+              <button class="btn">
+                <img className="arrow-down" src="assets/images/icons/down-arrow.svg" alt="arrow-down-icon" />
+              </button>
+          </div>
+        </div>
+        
+      </section>
+      {/* Hero Section Start 
       <section
         id="home"
         className="hero-area-four pt-250 rpt-120 pb-220 rpb-50 rel z-1"
@@ -81,7 +105,7 @@ const Index4OnePage = () => {
             alt="Shape"
           />
         </div>
-      </section>
+      </section> */}
       {/* Hero Section End */}
       {/* About Us Area start */}
       <motion.section ref={ref} style={{scale: scaleProgress, opacity: opacityProgress}} id="about" className="about-area rel z-1">
