@@ -3791,7 +3791,7 @@ h6, .h6 {
     }
     .hero-four-content .shadowfilter {
       -webkit-filter: drop-shadow(30px 12px 12px 7px #29bbffda);
-       filter: drop-shadow(10px 0px 17px #29bbffda);
+       filter: drop-shadow(10px 0px 17px #29bbffb2);
     
     }
     .hero-four-content .cta-row{
