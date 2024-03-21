@@ -3816,7 +3816,7 @@ h6, .h6 {
     }
     .hero-four-content .hero_img {
       width: 60%;
-      margin-top: -20px;
+      margin-top: 0px;
       margin-left: 20%;
     }
     .hero-four-content .shadowfilter {
