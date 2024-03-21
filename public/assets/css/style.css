@@ -3816,7 +3816,7 @@ h6, .h6 {
     }
     .hero-four-content .hero_img {
       width: 60%;
-      margin-top: -40px;
+      margin-top: -20px;
       margin-left: 20%;
     }
     .hero-four-content .shadowfilter {
@@ -3828,7 +3828,7 @@ h6, .h6 {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 0px;
+      margin-top: 20px;
     }
     }
   @media only screen and (max-width: 575px) {
