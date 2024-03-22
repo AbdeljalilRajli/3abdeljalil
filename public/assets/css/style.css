@@ -3800,6 +3800,27 @@ h6, .h6 {
       justify-content: center;
       margin-top: -100px;
     }
+    .hero-four-content .cta-row .arrow-down{
+      -webkit-animation: fade_move_down 4s ease-in-out infinite;
+      -moz-animation: fade_move_down 4s ease-in-out infinite;
+      animation: fade_move_down 4s ease-in-out infinite;
+    }
+    /*animated scroll arrow animation*/
+    @-webkit-keyframes fade_move_down {
+      0%   { -webkit-transform:translate(0,-10px); opacity: 0;  }
+      50%  { opacity: 1;  }
+      100% { -webkit-transform:translate(0,10px); opacity: 0; }
+    }
+    @-moz-keyframes fade_move_down {
+      0%   { -moz-transform:translate(0,-10px); opacity: 0;  }
+      50%  { opacity: 1;  }
+      100% { -moz-transform:translate(0,10px); opacity: 0; }
+    }
+    @keyframes fade_move_down {
+      0%   { transform:translate(0,-10px); opacity: 0;  }
+      50%  { opacity: 1;  }
+      100% { transform:translate(0,10px); opacity: 0; }
+    }
     }
   @media only screen and (max-width: 767px) {
     .hero-four-content h1 {
@@ -3816,7 +3837,7 @@ h6, .h6 {
     }
     .hero-four-content .hero_img {
       width: 60%;
-      margin-top: 0px;
+      margin-top: -20px;
       margin-left: 20%;
     }
     .hero-four-content .shadowfilter {
@@ -3829,6 +3850,27 @@ h6, .h6 {
       align-items: center;
       justify-content: center;
       margin-top: 20px;
+    }
+    .hero-four-content .cta-row .arrow-down{
+      -webkit-animation: fade_move_down 4s ease-in-out infinite;
+      -moz-animation: fade_move_down 4s ease-in-out infinite;
+      animation: fade_move_down 4s ease-in-out infinite;
+    }
+    /*animated scroll arrow animation*/
+    @-webkit-keyframes fade_move_down {
+      0%   { -webkit-transform:translate(0,-10px); opacity: 0;  }
+      50%  { opacity: 1;  }
+      100% { -webkit-transform:translate(0,10px); opacity: 0; }
+    }
+    @-moz-keyframes fade_move_down {
+      0%   { -moz-transform:translate(0,-10px); opacity: 0;  }
+      50%  { opacity: 1;  }
+      100% { -moz-transform:translate(0,10px); opacity: 0; }
+    }
+    @keyframes fade_move_down {
+      0%   { transform:translate(0,-10px); opacity: 0;  }
+      50%  { opacity: 1;  }
+      100% { transform:translate(0,10px); opacity: 0; }
     }
     }
   @media only screen and (max-width: 575px) {
