@@ -350,17 +350,18 @@ const Index4OnePage = () => {
                 </div>
               </div>
             </div>
+            
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">02</span>
+                <span className="serial-number">06</span>
                 <h4>
-                  <Link legacyBehavior href="#">
-                    <a>Drink-B Energy drink store Figma Template</a>
+                  <Link legacyBehavior href="https://fuerzastudios.com/">
+                    <a>Fuerza Studios - Daylight studio in Cuijk</a>
                   </Link>
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/DRINK-B-Mockup.webp"
+                    src="assets/images/projects/fuerza-mockup-portfolio.webp"
                     alt="Project TimeLine Image"
                   />
                 </div>
@@ -371,6 +372,7 @@ const Index4OnePage = () => {
                 </div>
               </div>
             </div>
+            
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-2s">
                 <span className="serial-number">03</span>
@@ -392,6 +394,7 @@ const Index4OnePage = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
                 <span className="serial-number">04</span>
@@ -413,12 +416,13 @@ const Index4OnePage = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-2s">
                 <span className="serial-number">05</span>
                 <h4>
                   <Link legacyBehavior href="https://rajli.tech/">
-                    <a>21thirteen - Abdeljalil Rajli NestJs Portfolio</a>
+                    <a>Abdeljalil Rajli -  Personal Portfolio using NextJs</a>
                   </Link>
                 </h4>
                 <div className="image">
@@ -434,17 +438,62 @@ const Index4OnePage = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
                 <span className="serial-number">06</span>
                 <h4>
                   <Link legacyBehavior href="https://www.helloeve.ma/">
-                    <a>HelloEve - accessories & jewelries store online</a>
+                    <a>HelloEve - Accessories & jewelries store online</a>
                   </Link>
                 </h4>
                 <div className="image">
                   <img
                     src="assets/images/projects/helloeve-mockup.webp"
+                    alt="Project TimeLine Image"
+                  />
+                </div>
+                <div className="right-btn">
+                  <a href="#">
+                    <i className="fal fa-long-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="project-timeline-two wow fadeInUp delay-0-4s">
+                <span className="serial-number">07</span>
+                <h4>
+                  <Link legacyBehavior href="https://www.medical-hospitality-morocco.com/">
+                    <a>Medical Hospitality Morocco - Plastic Surgery Morocco</a>
+                  </Link>
+                </h4>
+                <div className="image">
+                  <img
+                    src="assets/images/projects/medicak-hospitality-morocco.webp"
+                    alt="Project TimeLine Image"
+                  />
+                </div>
+                <div className="right-btn">
+                  <a href="#">
+                    <i className="fal fa-long-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="project-timeline-two wow fadeInUp delay-0-4s">
+                <span className="serial-number">08</span>
+                <h4>
+                  <Link legacyBehavior href="#">
+                    <a>Drink-B Energy drink store - Figma Template</a>
+                  </Link>
+                </h4>
+                <div className="image">
+                  <img
+                    src="assets/images/projects/DRINK-B-Mockup.webp"
                     alt="Project TimeLine Image"
                   />
                 </div>

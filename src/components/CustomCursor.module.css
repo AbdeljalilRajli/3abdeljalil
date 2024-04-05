@@ -1,0 +1,16 @@
+.cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform 0.1s ease, background-color 0.3s ease, width 0.3s ease, height 0.3s ease; /* Add transition for smoother movement */
+  }
+  
+  .cursor.hovered {
+    background-color: #ff0000; /* Change color on hover */
+    width: 30px; /* Change width on hover */
+    height: 30px; /* Change height on hover */
+  }
+  
