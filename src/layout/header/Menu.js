@@ -8,7 +8,7 @@ const Menu = ({ singleMenu }) => {
         <SingleMenu />
       ) : (
         <Fragment>
-          <DaskTopMenu />
+          
           <MobileMenu />
         </Fragment>
       )}

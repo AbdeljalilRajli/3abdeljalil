@@ -3,6 +3,8 @@ import "@/styles/globals.css";
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import CustomCursor from "@/src/components/CustomCursor"
+
 
 export default function App({ Component, pageProps }) {
   const [loaded, setLoaded] = useState(false);
@@ -52,7 +54,7 @@ export default function App({ Component, pageProps }) {
         {/* Main Style */}
         <link rel="stylesheet" href="assets/css/style.css" />
       </Head>
-      {!loaded && <PreLoader />}
+      {/* {!loaded && <PreLoader />}  */}
       {loaded && <Component {...pageProps} />}
     <SpeedInsights/>
     </Fragment>
