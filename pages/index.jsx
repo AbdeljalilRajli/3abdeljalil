@@ -353,7 +353,7 @@ const Index4OnePage = () => {
             
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">06</span>
+                <span className="serial-number">02</span>
                 <h4>
                   <Link legacyBehavior href="https://fuerzastudios.com/">
                     <a>Fuerza Studios - Daylight studio in Cuijk</a>
