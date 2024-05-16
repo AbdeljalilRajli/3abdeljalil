@@ -52,7 +52,7 @@
 }
 .testimonial-two-part .slick-dots li.slick-active,
 .testimonial-three-dots .slick-dots li.slick-active {
-  background: var(--ygency-primary-color);
+  background: var(--folio-primary-color);
 }
 .work-gallery-active .project-item {
   margin: 0;

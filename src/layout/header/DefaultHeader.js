@@ -27,9 +27,6 @@ const Header = ({ singleMenu }) => {
               <Nav singleMenu={singleMenu} />
               {/* Main Menu End*/}
             </div>
-            {/* Nav Search 
-            <NavSearch />
-             Menu Button */}
 
             <div className="menu-btns ms-lg-auto">
 

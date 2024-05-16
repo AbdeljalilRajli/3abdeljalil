@@ -1,10 +1,10 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "flaticon_ygency";
-  src: url("./flaticon_ygency.ttf?a4bbcc93120497bb608e4b35faceaf9b") format("truetype"), url("./flaticon_ygency.woff?a4bbcc93120497bb608e4b35faceaf9b") format("woff"), url("./flaticon_ygency.woff2?a4bbcc93120497bb608e4b35faceaf9b") format("woff2"), url("./flaticon_ygency.eot?a4bbcc93120497bb608e4b35faceaf9b#iefix") format("embedded-opentype"), url("./flaticon_ygency.svg?a4bbcc93120497bb608e4b35faceaf9b#flaticon_ygency") format("svg"); }
+  font-family: "flaticon_folio";
+  src: url("./flaticon_folio.ttf?a4bbcc93120497bb608e4b35faceaf9b") format("truetype"), url("./flaticon_folio.woff?a4bbcc93120497bb608e4b35faceaf9b") format("woff"), url("./flaticon_folio.woff2?a4bbcc93120497bb608e4b35faceaf9b") format("woff2"), url("./flaticon_folio.eot?a4bbcc93120497bb608e4b35faceaf9b#iefix") format("embedded-opentype"), url("./flaticon_folio.svg?a4bbcc93120497bb608e4b35faceaf9b#flaticon_folio") format("svg"); }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
-  font-family: flaticon_ygency !important;
+  font-family: flaticon_folio !important;
   font-style: normal;
   font-weight: normal !important;
   font-variant: normal;
