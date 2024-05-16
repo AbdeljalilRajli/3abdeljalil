@@ -2835,10 +2835,10 @@ h6, .h6 {
     top: 0;
     left: 0;
     position: fixed;
-    background: #222222;
+    background: #000000;
     -webkit-animation: sticky  1s;
     animation: sticky  1s;
-    -webkit-box-shadow: 0px 0px 30px 0px rgba(87, 95, 245, 0.1);
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(87, 95, 245, 0.21);
     box-shadow: 0px 0px 30px 0px rgba(87, 95, 245, 0.1); }
   @media only screen and (min-width: 992px) {
     .main-header.fixed-header .main-menu .navbar-collapse > ul > li {
@@ -2874,7 +2874,8 @@ h6, .h6 {
       .main-menu .navbar-collapse > ul {
         display: block;
         padding: 25px 0;
-        background: #222222; }
+        background: #000000;
+        border: 1px solid var(--folio-border-color); }
         .main-menu .navbar-collapse > ul > li:last-child {
           border-bottom: 1px solid var(--folio-border-color); } }
     @media only screen and (min-width: 992px) {
