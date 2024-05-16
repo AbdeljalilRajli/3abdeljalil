@@ -30,9 +30,6 @@ const SingleMenu = () => {
       <li>
         <a href="#projects">project</a>
       </li>
-      <li>
-        <a href="#news">news</a>
-      </li>
     </ul>
   );
 };

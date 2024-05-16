@@ -141,7 +141,7 @@ const Index4OnePage = () => {
       {/* About Us Area end */}
 
       {/* Skills Area Start */}
-      <section className="skills-area pt-100 pb-80 rpt-10 rel z-1">
+      <section className="skills-area pt-100 pb-80 rpt-10 rel z-1" id="skills">
         <div className="container container-1590">
           <div className="row justify-content-center">
             <div className="col-lg-6">
