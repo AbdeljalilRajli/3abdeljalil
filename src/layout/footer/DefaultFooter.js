@@ -4,6 +4,7 @@ const DefaultFooter = () => {
   return (
     <footer
       className="main-footer rel z-1"
+      id="contact"
       style={{
         backgroundImage: "url(assets/images/footer/footer-bg-shape.png)",
       }}
