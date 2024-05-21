@@ -12,16 +12,7 @@ const DefaultFooter = () => {
       <div className="container container-1290">
         <div className="footer-top pt-80 pb-60">
           <div className="row align-items-center">
-            <div className="col-lg-4">
-              <div className="footer-logo mb-20 wow fadeInRight delay-0-2s animated">
-                <Link legacyBehavior href="/">
-                  <a>
-                    <img src="assets/images/logos/abdeljalil-main-logo.png" alt="Logo" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-8 text-lg-end">
+            <div className="col-lg-12 text-lg-center">
               <div className="social-style-four mb-20 wow fadeInLeft delay-0-2s animated">
                 <a href="https://www.linkedin.com/in/abdeljalil-r-02b3a91b3/">
                   <i className="fab fa-linkedin" /> <span>LINKEDIN</span>
