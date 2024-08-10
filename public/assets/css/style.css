@@ -3081,6 +3081,23 @@ h6, .h6 {
 /******************** ## Hero Area ********************/
 /*******************************************************/
 
+  /*------------- Hero Image glowing effect ------------*/
+  .hero_img {
+    display: inline-block;
+    filter: drop-shadow(0 0 10px #00ffff);
+    animation: glow 2s infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      filter: drop-shadow(0 0 3px #00ffff);
+    }
+    to {
+      filter: drop-shadow(0 0 10px #00ffff);
+    }
+  }
+  
+
 .hero-four-content h1 {
   font-weight: 500; 
 }
@@ -4572,3 +4589,7 @@ h6, .h6 {
     margin-right: -45px;
     height: 60px;
   } }
+
+  
+
+  
