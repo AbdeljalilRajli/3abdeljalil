@@ -3,7 +3,6 @@ import "@/styles/globals.css";
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import CustomCursor from "@/src/components/CustomCursor"
 
 
 export default function App({ Component, pageProps }) {

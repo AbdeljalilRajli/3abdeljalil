@@ -29,13 +29,18 @@
 
 
 * {
-  scroll-behavior: smooth!important;
+
   margin: 0;
   padding: 0;
   border: none;
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none; }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
 
 body {
   color: var(--folio-body-color);
@@ -3084,16 +3089,16 @@ h6, .h6 {
   /*------------- Hero Image glowing effect ------------*/
   .hero_img {
     display: inline-block;
-    filter: drop-shadow(0 0 10px #00ffff);
+    filter: drop-shadow(0 0 20px #29bbffda);
     animation: glow 2s infinite alternate;
   }
   
   @keyframes glow {
     from {
-      filter: drop-shadow(0 0 3px #00ffff);
+      filter: drop-shadow(0 0 5px #29bbffda);
     }
     to {
-      filter: drop-shadow(0 0 10px #00ffff);
+      filter: drop-shadow(0 0 15px #29bbffda);
     }
   }
   
