@@ -61,6 +61,7 @@ body {
   --folio-primary-rgb: 85,230,165;
   --folio-secondary-rgb: 255,255,255;
   --folio-tertiary-rgb: 22,22,28; }
+  
 
 /* Change Select text color ----*/
 ::-moz-selection { /* Code for Firefox */

@@ -14,19 +14,13 @@ const Index4OnePage = () => {
   const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
 
-  const accordionData = [
-    { id: 1, title: "Will you provide website layout about design ?" },
-    { id: 2, title: "How much does cost to design website ?" },
-    { id: 3, title: "How many revisions can i make the design ?" },
-    { id: 4, title: "Will you provide website layout about design ?" },
-  ];
   const [active, setActive] = useState("collapse0");
   return (
     <Layout header={2} singleMenu footer={1}>
       
       <section
         id="home"
-        className="hero-area-four pt-100 rpt-120 pb-120 rpb-50 rel z-1"
+        className="hero-area-four pt-150 rpt-120 pb-120 rpb-50 rel z-1"
       >
         <div className="hero-four-content container container-1290 rel z-1">
           <div className="row gap-20 justify-content-between align-items-center">
@@ -333,8 +327,8 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-2s">
                 <span className="serial-number">01</span>
                 <h4>
-                  <Link legacyBehavior href="https://www.aquilla.io/">
-                    <a>Aquilla - IT specialized recruitment agency</a>
+                  <Link legacyBehavior href="https://www.aquilla.3abdeljalil.website/">
+                    <a target="_blank">Aquilla - IT specialized recruitment agency</a>
                   </Link>
                 </h4>
                 <div className="image">
@@ -344,7 +338,7 @@ const Index4OnePage = () => {
                   />
                 </div>
                 <div className="right-btn">
-                  <a href="#">
+                  <a href="https://www.aquilla.3abdeljalil.website/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
@@ -356,7 +350,7 @@ const Index4OnePage = () => {
                 <span className="serial-number">02</span>
                 <h4>
                   <Link legacyBehavior href="https://fuerzastudios.com/">
-                    <a>Fuerza Studios - Daylight studio in Cuijk</a>
+                    <a target="_blank">Fuerza Studios - Daylight studio in Cuijk</a>
                   </Link>
                 </h4>
                 <div className="image">
@@ -366,7 +360,7 @@ const Index4OnePage = () => {
                   />
                 </div>
                 <div className="right-btn">
-                  <a href="#">
+                  <a href="#" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
@@ -378,7 +372,7 @@ const Index4OnePage = () => {
                 <span className="serial-number">03</span>
                 <h4>
                   <Link legacyBehavior href="https://glowink.be/">
-                    <a>Glowin'k - Permanent make-up & hair loss solutions</a>
+                    <a target="_blank">Glowin'k - Permanent make-up & hair loss solutions</a>
                   </Link>
                 </h4>
                 <div className="image">
@@ -388,7 +382,7 @@ const Index4OnePage = () => {
                   />
                 </div>
                 <div className="right-btn">
-                  <a href="#">
+                  <a href="https://glowink.be/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
@@ -399,8 +393,8 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
                 <span className="serial-number">04</span>
                 <h4>
-                  <Link legacyBehavior href="https://www.para-organica.ma/">
-                    <a>Para Organica - Online non-prescription pharmacy</a>
+                  <Link legacyBehavior href="https://www.organica.iboostmorocco.com/">
+                    <a target="_blank">Para Organica - Online non-prescription pharmacy</a>
                   </Link>
                 </h4>
                 <div className="image">
@@ -410,7 +404,7 @@ const Index4OnePage = () => {
                   />
                 </div>
                 <div className="right-btn">
-                  <a href="#">
+                  <a href="https://www.organica.iboostmorocco.com/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
@@ -421,8 +415,8 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-2s">
                 <span className="serial-number">05</span>
                 <h4>
-                  <Link legacyBehavior href="https://rajli.tech/">
-                    <a>Abdeljalil Rajli -  Personal Portfolio using NextJs</a>
+                  <Link legacyBehavior href="https://www.3abdeljalil.com/">
+                    <a target="_blank">Abdeljalil Rajli -  Personal Portfolio using NextJs</a>
                   </Link>
                 </h4>
                 <div className="image">
@@ -432,7 +426,7 @@ const Index4OnePage = () => {
                   />
                 </div>
                 <div className="right-btn">
-                  <a href="#">
+                  <a href="https://www.3abdeljalil.com/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
@@ -444,7 +438,7 @@ const Index4OnePage = () => {
                 <span className="serial-number">06</span>
                 <h4>
                   <Link legacyBehavior href="https://www.helloeve.ma/">
-                    <a>HelloEve - Accessories & jewelries store online</a>
+                    <a target="_blank">HelloEve - Accessories & jewelries store online</a>
                   </Link>
                 </h4>
                 <div className="image">
@@ -454,7 +448,7 @@ const Index4OnePage = () => {
                   />
                 </div>
                 <div className="right-btn">
-                  <a href="#">
+                  <a href="https://www.helloeve.ma/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
@@ -466,7 +460,7 @@ const Index4OnePage = () => {
                 <span className="serial-number">07</span>
                 <h4>
                   <Link legacyBehavior href="https://www.medical-hospitality-morocco.com/">
-                    <a>Medical Hospitality Morocco - Plastic Surgery Morocco</a>
+                    <a target="_blank">Medical Hospitality Morocco - Plastic Surgery Morocco</a>
                   </Link>
                 </h4>
                 <div className="image">
@@ -476,7 +470,7 @@ const Index4OnePage = () => {
                   />
                 </div>
                 <div className="right-btn">
-                  <a href="#">
+                  <a href="https://www.medical-hospitality-morocco.com/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
