@@ -26,6 +26,9 @@ const DefaultFooter = () => {
                 <a href="https://twitter.com/RajliAbdel42519">
                   <i className="fab fa-twitter" /> <span>TWITTER</span>
                 </a>
+                <a href="https://www.behance.net/3abdeljalil">
+                  <i className="fab fa-behance" /> <span>BEHANCE</span>
+                </a>
               </div>
             </div>
           </div>
