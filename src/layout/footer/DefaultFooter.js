@@ -14,19 +14,19 @@ const DefaultFooter = () => {
           <div className="row align-items-center">
             <div className="col-lg-12 text-lg-center">
               <div className="social-style-four mb-20 wow fadeInLeft delay-0-2s animated">
-                <a href="https://www.linkedin.com/in/abdeljalil-r-02b3a91b3/">
+                <a href="https://www.linkedin.com/in/abdeljalil-r-02b3a91b3/" target="_blank">
                   <i className="fab fa-linkedin" /> <span>LINKEDIN</span>
                 </a>
-                <a href="https://github.com/AbdeljalilRajli">
+                <a href="https://github.com/AbdeljalilRajli" target="_blank">
                   <i className="fab fa-github" /> <span>GITHUB</span>
                 </a>
-                <a href="https://www.instagram.com/rajli_abdeljalil/">
+                <a href="https://www.instagram.com/rajli_abdeljalil/" target="_blank">
                   <i className="fab fa-instagram" /> <span>INSTAGRAM</span>
                 </a>
-                <a href="https://twitter.com/RajliAbdel42519">
+                <a href="https://twitter.com/RajliAbdel42519" target="_blank">
                   <i className="fab fa-twitter" /> <span>TWITTER</span>
                 </a>
-                <a href="https://www.behance.net/3abdeljalil">
+                <a href="https://www.behance.net/3abdeljalil" target="_blank">
                   <i className="fab fa-behance" /> <span>BEHANCE</span>
                 </a>
               </div>
