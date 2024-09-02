@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^15.22.10",
     "@next/font": "13.3.0",
     "@vercel/speed-insights": "^1.0.2",
+    "contentful": "^10.15.0",
     "framer-motion": "^10.16.4",
-    "next": "13.3.0",
+    "next": "^13.3.0",
     "react": "18.2.0",
     "react-bootstrap": "^1.6.1",
     "react-circular-progressbar": "^2.1.0",
