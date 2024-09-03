@@ -12,11 +12,11 @@ export async function getStaticProps() {
   };
 }
 
-const ProjectDetails = ({ posts }) => {
+const BlogPage = ({ posts }) => {
   return (
     <Layout header={2} singleMenu footer={1}>
       {/* Page Banner Section Start */}
-      <section className="page-banner pt-200 rpt-150 pb-75 rel z-1">
+      <section className="page-banner pt-200 rpt-150 pb-45 rel z-1">
         <div className="container container-1290">
           <div className="row">
             <div className="col-lg-12 text-center">
@@ -41,8 +41,10 @@ const ProjectDetails = ({ posts }) => {
                   className={styles.image}
                 />
               )}
-              <h2 className={styles.title}>{post.fields.title}</h2>
               <p className={styles.date}>{new Date(post.fields.publishedDate).toDateString()}</p>
+              <Link href={`/blog/${post.fields.slug}`} passHref>
+                <h2 className={styles.title}>{post.fields.title}</h2>
+              </Link>
               <p className={styles.excerpt}>{post.fields.excerpt}</p>
               <Link href={`/blog/${post.fields.slug}`} passHref>
                 <button className={styles.readMoreButton}>Read More</button>
@@ -55,4 +57,4 @@ const ProjectDetails = ({ posts }) => {
   );
 };
 
-export default ProjectDetails;
+export default BlogPage;

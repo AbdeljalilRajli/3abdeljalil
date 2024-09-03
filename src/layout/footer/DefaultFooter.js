@@ -3,10 +3,10 @@ import Link from "next/link";
 const DefaultFooter = () => {
   return (
     <footer
-      className="main-footer rel z-1"
+      className="main-footer rel z-1 slug-footer"
       id="contact"
       style={{
-        backgroundImage: "url(assets/images/footer/footer-bg-shape.png)",
+        backgroundImage: "url(/assets/images/footer/footer-bg-shape.png)",
       }}
     >
       <div className="container container-1290">

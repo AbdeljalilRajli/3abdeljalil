@@ -1,8 +1,4 @@
-/* Blog.module.css */
-.pageTitle {
-  text-align: center;
-  margin: 20px 0;
-}
+
 
 /* Define the keyframes for the fadeInUp animation */
 @keyframes fadeInUp {
@@ -19,20 +15,20 @@
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 20px; /* Space between grid items */
-  padding: 20px;
+  gap: 40px; /* Space between grid items */
+  padding: 20px 0px 60px 0px;
   max-width: 1200px; /* Control the maximum width */
   margin: 0 auto; /* Center the grid */
-  animation: fadeInUp 4s ease-in-out;
 }
 
-
 .gridItem {
+  border: solid 1px #fff;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #1e1e1e;
+  background-color: #121212;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 0px 0 20px 0;
+  animation: fadeInUp 4s ease-in-out;
 }
 
 .image {
@@ -43,14 +39,14 @@
 .title {
   font-size: 1.3rem;
   margin: 1rem 0;
-  margin: 20px 20px 10px 20px;
+  margin: 10px 20px 10px 20px;
 }
 
 .date {
   font-size: 0.875rem;
   color: #6a98f0;
   margin-bottom: 1rem;
-  margin: 0px 20px 0 20px;
+  margin: 20px 0px 0 20px;
 }
 
 .excerpt {
@@ -67,10 +63,48 @@
   padding: 5px 35px;
   text-decoration: none;
   border-radius: 4px;
-  margin-left:20px;
+  margin-left: 20px;
   font-size: 16px;
 }
 
 .readMoreButton:hover {
-  background-color: #005bb5;
+  background-color: #005bb500;
+  border: solid 1px #6a98f0;
+  color: #6a98f0;
+}
+
+/* New styles for single blog post page */
+.singlePostContainer {
+  max-width: 1100px; /* Control the maximum width of single post */
+  margin: 0 auto; /* Center the single post content */
+  padding: 20px;
+}
+
+.singlePostContent {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.singlePostTitle {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.singlePostDate {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.singlePostBody {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  color: #444;
+}
+
+.imageContainer {
+  margin-bottom: 2.5rem;
+  border-radius: 20px;
 }

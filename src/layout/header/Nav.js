@@ -9,11 +9,11 @@ const Nav = ({ singleMenu }) => {
           <div className="mobile-logo">
             <Link legacyBehavior href="/">
               <a>
-                <img
-                  src="assets/images/logos/abdeljalil-main-logo.png"
-                  alt="Logo"
-                  title="Logo"
-                />
+              <img
+                src="/assets/images/logos/abdeljalil-main-logo.png" // Leading slash for absolute path
+                alt="Logo"
+                title="Logo"
+              />
               </a>
             </Link>
           </div>

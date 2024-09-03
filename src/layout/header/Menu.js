@@ -32,6 +32,9 @@ const SingleMenu = () => {
         <a href="#projects">project <sup style={{fontWeight:"100",}}>(8)</sup></a>
       </li>
       <li>
+        <a href="/blog">blog</a>
+      </li>
+      <li>
         <a href="#contact">contact</a>
       </li>
     </ul>

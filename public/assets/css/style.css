@@ -151,7 +151,9 @@ header:after, section:after, footer:after {
     .container.container-1260 {
       max-width: 1290px; }
     .container.container-1210 {
-      max-width: 1240px; } }
+      max-width: 1240px; }
+    .container.container-1100 {
+        max-width: 1100px; } }
 
 @media only screen and (min-width: 576px) {
   .container-fluid {

@@ -13,11 +13,11 @@ const Header = ({ singleMenu }) => {
               <div className="logo">
                 <Link legacyBehavior href="/">
                   <a>
-                    <img
-                      src="assets/images/logos/abdeljalil-main-logo.png"
-                      alt="Logo"
-                      title="Logo"
-                    />
+                  <img
+                    src="/assets/images/logos/abdeljalil-main-logo.png" // Note the leading slash for an absolute path
+                    alt="Logo"
+                    title="Logo"
+                  />
                   </a>
                 </Link>
               </div>
