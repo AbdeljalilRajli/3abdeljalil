@@ -23,19 +23,19 @@ const SingleMenu = () => {
     <ul className="navigation onepage clearfix">
 
       <li>
-        <a href="#about">about</a>
+        <a href="/#about">about</a>
       </li>
       <li>
-        <a href="#skills">skills</a>
+        <a href="/#skills">skills</a>
       </li>
       <li>
-        <a href="#projects">project <sup style={{fontWeight:"100",}}>(8)</sup></a>
+        <a href="/#projects">project <sup style={{fontWeight:"100",}}>(8)</sup></a>
       </li>
       <li>
         <a href="/blog">blog</a>
       </li>
       <li>
-        <a href="#contact">contact</a>
+        <a href="/#contact">contact</a>
       </li>
     </ul>
   );
