@@ -107,4 +107,6 @@
 .imageContainer {
   margin-bottom: 2.5rem;
   border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
 }
