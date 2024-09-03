@@ -3,6 +3,7 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import Layout from "@/src/layout/Layout";
 import styles from './BlogPost.module.css';
 import Image from 'next/image';
+import Link from "next/link";
 
 // Function to get static paths for the blog posts
 export async function getStaticPaths() {

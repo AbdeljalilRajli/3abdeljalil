@@ -1,5 +1,5 @@
 import PreLoader from "@/src/layout/PreLoader";
-import "@/styles/globals.css";
+
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next"
@@ -14,6 +14,7 @@ export default function App({ Component, pageProps }) {
   }, []);
 
   return (
+    
     <Fragment>
       <Head>
         <meta charSet="utf-8" />

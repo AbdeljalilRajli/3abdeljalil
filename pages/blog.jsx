@@ -35,11 +35,13 @@ const BlogPage = ({ posts }) => {
           {posts.map((post) => (
             <div key={post.sys.id} className={styles.gridItem}>
               {post.fields.featuredImage && (
-                <img
-                  src={`https:${post.fields.featuredImage.fields.file.url}`}
-                  alt={post.fields.featuredImage.fields.title || 'Blog Image'}
-                  className={styles.image}
-                />
+                <Link href={`/blog/${post.fields.slug}`} passHref>
+                  <img
+                    src={`https:${post.fields.featuredImage.fields.file.url}`}
+                    alt={post.fields.featuredImage.fields.title || 'Blog Image'}
+                    className={styles.image}
+                  />
+                </Link>
               )}
               <p className={styles.date}>{new Date(post.fields.publishedDate).toDateString()}</p>
               <Link href={`/blog/${post.fields.slug}`} passHref>
