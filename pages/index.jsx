@@ -344,6 +344,28 @@ const Index4OnePage = () => {
                 </div>
               </div>
             </div>
+
+            <div className="col-lg-6">
+              <div className="project-timeline-two wow fadeInUp delay-0-4s">
+                <span className="serial-number">07</span>
+                <h4>
+                  <Link legacyBehavior href="https://omnya-bouhamed.vercel.app/">
+                    <a target="_blank">Omnya Bouhamed - Marketing & Communication professional</a>
+                  </Link>
+                </h4>
+                <div className="image">
+                  <img
+                    src="assets/images/projects/omnya-portfolio-mockup.webp"
+                    alt="Project TimeLine Image"
+                  />
+                </div>
+                <div className="right-btn">
+                  <a href="https://omnya-bouhamed.vercel.app/" target="_blank">
+                    <i className="fal fa-long-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
             
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
@@ -449,28 +471,6 @@ const Index4OnePage = () => {
                 </div>
                 <div className="right-btn">
                   <a href="https://www.helloeve.ma/" target="_blank">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">07</span>
-                <h4>
-                  <Link legacyBehavior href="https://www.medical-hospitality-morocco.com/">
-                    <a target="_blank">Medical Hospitality Morocco - Plastic Surgery Morocco</a>
-                  </Link>
-                </h4>
-                <div className="image">
-                  <img
-                    src="assets/images/projects/medicak-hospitality-morocco.webp"
-                    alt="Project TimeLine Image"
-                  />
-                </div>
-                <div className="right-btn">
-                  <a href="https://www.medical-hospitality-morocco.com/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
