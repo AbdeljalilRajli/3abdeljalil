@@ -3949,7 +3949,7 @@ h6, .h6 {
     max-width: 350px;
     margin-right: 20px; }
     .project-timeline .content .serial-number {
-      color: white;
+      color: #6a98f0;
       font-weight: 300;
       font-size: 50px;
       margin-bottom: 45px;
@@ -3976,7 +3976,7 @@ h6, .h6 {
     border-color: var(--folio-primary-color); }
     .project-timeline:hover .content .serial-number,
     .project-timeline:hover .content h4 a {
-      color: var(--folio-primary-color); }
+      color: #6a98f0; }
     .project-timeline:hover .content h4 a {
       text-decoration: underline;
       text-decoration-thickness: 1px;
@@ -4003,7 +4003,7 @@ h6, .h6 {
   .project-timeline-two .serial-number {
     font-size: 22px;
     font-weight: 300;
-    color: #ffffff93;
+    color: #6a98f0;
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s; }
@@ -4064,7 +4064,7 @@ h6, .h6 {
     z-index: 9; }
     .project-timeline-two:hover .serial-number,
     .project-timeline-two:hover .right-btn a {
-      color: white; }
+      color: #6a98f0; }
     .project-timeline-two:hover h4 a {
       color: var(--folio-primary-color);
       text-decoration: underline;
@@ -4076,6 +4076,23 @@ h6, .h6 {
       -webkit-transform: scale(1) rotate(13.43deg);
       -ms-transform: scale(1) rotate(13.43deg);
       transform: scale(1) rotate(13.43deg); }
+
+      .tech-stack {
+        display: flex;
+        gap: 10px; /* Space between each tech */
+        margin-top: 10px;
+      }
+      
+      .tech-stack span {
+        margin-top: 10px;
+        font-size: 13px;
+        font-weight: medium;
+        color: #ffffff; /* Text color */
+        background-color: #6a98f0; /* Background color for each tech */
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+      
 
 /* Project Details */
 .project-details-area .text {
