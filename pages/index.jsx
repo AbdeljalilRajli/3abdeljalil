@@ -352,36 +352,8 @@ const Index4OnePage = () => {
             </div>
 
             <div className="col-lg-6">
-              <div className="project-timeline-two wow fadeInUp delay-0-2s">
-                <span className="serial-number">02</span>
-                <h4>
-                  <Link legacyBehavior href="https://www.aquilla.3abdeljalil.website/">
-                    <a target="_blank">Aquilla - IT specialized recruitment agency</a>
-                  </Link><br />
-                  <div class="tech-stack">
-                    <span>WordPress</span>
-                    <span>PHP</span>
-                    <span>MySql</span>
-                    <span>JavaScript</span>
-                  </div>
-                </h4>             
-                <div className="image">
-                  <img
-                    src="assets/images/projects/Aquilla-Mockup.webp"
-                    alt="Project TimeLine Image"
-                  />
-                </div>
-                <div className="right-btn">
-                  <a href="https://www.aquilla.3abdeljalil.website/" target="_blank">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">03</span>
+                <span className="serial-number">02</span>
                 <h4>
                   <Link legacyBehavior href="https://fuerzastudios.com/">
                     <a target="_blank">Fuerza Studios - Daylight studio in Cuijk</a>
@@ -401,6 +373,34 @@ const Index4OnePage = () => {
                 </div>
                 <div className="right-btn">
                   <a href="#" target="_blank">
+                    <i className="fal fa-long-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="project-timeline-two wow fadeInUp delay-0-2s">
+                <span className="serial-number">03</span>
+                <h4>
+                  <Link legacyBehavior href="https://www.aquilla.3abdeljalil.website/">
+                    <a target="_blank">Aquilla - IT specialized recruitment agency</a>
+                  </Link><br />
+                  <div class="tech-stack">
+                    <span>WordPress</span>
+                    <span>PHP</span>
+                    <span>MySql</span>
+                    <span>JavaScript</span>
+                  </div>
+                </h4>             
+                <div className="image">
+                  <img
+                    src="assets/images/projects/Aquilla-Mockup.webp"
+                    alt="Project TimeLine Image"
+                  />
+                </div>
+                <div className="right-btn">
+                  <a href="https://www.aquilla.3abdeljalil.website/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
