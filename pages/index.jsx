@@ -439,7 +439,7 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
                 <span className="serial-number">05</span>
                 <h4>
-                  <Link legacyBehavior href="https://www.organica.iboostmorocco.com/">
+                  <Link legacyBehavior href="https://www.para-organica.ma/">
                     <a target="_blank">Para Organica - Online non-prescription pharmacy</a>
                   </Link>
                   <div class="tech-stack">
@@ -456,7 +456,7 @@ const Index4OnePage = () => {
                   />
                 </div>
                 <div className="right-btn">
-                  <a href="https://www.organica.iboostmorocco.com/" target="_blank">
+                  <a href="https://www.para-organica.ma/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
