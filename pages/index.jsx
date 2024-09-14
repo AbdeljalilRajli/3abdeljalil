@@ -149,6 +149,22 @@ const Index4OnePage = () => {
           </div>
           <div className="skills-wrap wow fadeInUp delay-0-2s">
             <div className="skill-item">
+              <img src="assets/images/skills/React.png" alt="Skill Icon" />
+                <span className="text">React</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/NextJs.png" alt="Skill Icon" />
+              <span className="text">Next.js</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/JavaScript.png" alt="Skill Icon" />
+              <span className="text">JavaScript</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/typescript.png" alt="Skill Icon" />
+              <span className="text">TypeScript</span>
+            </div>
+            <div className="skill-item">
               <img src="assets/images/skills/HTML.png" alt="Skill Icon" />
               <span className="text">HTML</span>
             </div>
@@ -157,16 +173,12 @@ const Index4OnePage = () => {
               <span className="text">CSS</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/JavaScript.png" alt="Skill Icon" />
-              <span className="text">JavaScript</span>
+              <img src="assets/images/skills/TailwindCSS.png" alt="Skill Icon" />
+              <span className="text">Tailwind CSS</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/React.png" alt="Skill Icon" />
-                <span className="text">React</span>
-            </div>
-            <div className="skill-item">
-              <img src="assets/images/skills/NextJs.png" alt="Skill Icon" />
-              <span className="text">Next.js</span>
+              <img src="assets/images/skills/skill9.png" alt="Skill Icon" />
+                <span className="text">SCSS</span>
             </div>
             <div className="skill-item">
               <img src="assets/images/skills/NodeJs.png" alt="Skill Icon" />
@@ -187,18 +199,6 @@ const Index4OnePage = () => {
             <div className="skill-item">
               <img src="assets/images/skills/Git.png" alt="Skill Icon" />
               <span className="text">Git</span>
-            </div>
-            <div className="skill-item">
-              <img src="assets/images/skills/Drupal.png" alt="Skill Icon" />
-              <span className="text">Drupal</span>
-            </div>
-            <div className="skill-item">
-              <img src="assets/images/skills/Bt.png" alt="Skill Icon" />
-                <span className="text">Bootstrap</span>
-            </div>
-            <div className="skill-item">
-              <img src="assets/images/skills/TailwindCSS.png" alt="Skill Icon" />
-              <span className="text">Tailwind CSS</span>
             </div>
           </div>
         </div>
