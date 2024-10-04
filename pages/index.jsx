@@ -353,6 +353,34 @@ const Index4OnePage = () => {
 
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
+                <span className="serial-number">07</span>
+                <h4>
+                  <Link legacyBehavior href="https://devion-agency.vercel.app/">
+                    <a target="_blank">Devion - Crafting Dynamic Digital Experiences</a>
+                  </Link>
+                  <div class="tech-stack">
+                  <span>Next.js</span>
+                    <span>TypeScript</span>
+                    <span>TailwindCSS</span>
+                    <span>Sentry</span>
+                  </div>
+                </h4>
+                <div className="image">
+                  <img
+                    src="assets/images/projects/devion-mockup.webp"
+                    alt="Project TimeLine Image"
+                  />
+                </div>
+                <div className="right-btn">
+                  <a href="https://devion-agency.vercel.app/" target="_blank">
+                    <i className="fal fa-long-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="project-timeline-two wow fadeInUp delay-0-4s">
                 <span className="serial-number">02</span>
                 <h4>
                   <Link legacyBehavior href="https://fuerzastudios.com/">
@@ -485,34 +513,6 @@ const Index4OnePage = () => {
                 </div>
                 <div className="right-btn">
                   <a href="https://www.3abdeljalil.com/" target="_blank">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">07</span>
-                <h4>
-                  <Link legacyBehavior href="https://www.helloeve.ma/">
-                    <a target="_blank">HelloEve - Accessories & jewelries store online</a>
-                  </Link>
-                  <div class="tech-stack">
-                    <span>WordPress</span>
-                    <span>PHP</span>
-                    <span>MySql</span>
-                    <span>JavaScript</span>
-                  </div>
-                </h4>
-                <div className="image">
-                  <img
-                    src="assets/images/projects/helloeve-mockup.webp"
-                    alt="Project TimeLine Image"
-                  />
-                </div>
-                <div className="right-btn">
-                  <a href="https://www.helloeve.ma/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
