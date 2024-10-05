@@ -4350,6 +4350,7 @@ h6, .h6 {
 /*******************************************************/
 .main-footer {
   background-color: #000000;
+  background-image: url(/assets/images/footer/footer-bg-shape.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }

@@ -5,9 +5,6 @@ const DefaultFooter = () => {
     <footer
       className="main-footer rel z-1 slug-footer"
       id="contact"
-      style={{
-        backgroundImage: "url(/assets/images/footer/footer-bg-shape.png)",
-      }}
     >
       <div className="container container-1290">
         <div className="footer-top pt-80 pb-60">
