@@ -5,12 +5,12 @@ const E404 = () => {
   return (
     <Layout>
       <section
-        className="error-section pt-150 rpt-80 pb-60 rpb-60 rel z-1"
+        className="error-section pt-150 rpt-180 pb-60 rpb-20 rel z-1"
       >
         <div className="container container-1290">
           <div className="row align-items-center">
             <div className="col-lg-5">
-              <div className="error-content rmb-55 wow fadeInRight delay-0-2s">
+              <div className="error-content rmb-15 wow fadeInRight delay-0-2s">
                 <h1>OPPS!</h1>
                 <div className="section-title mb-50 rmb-35">
                   <h2>This Page Can't Be Found</h2>
