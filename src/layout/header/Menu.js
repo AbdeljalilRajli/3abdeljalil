@@ -9,7 +9,7 @@ const Menu = ({ singleMenu }) => {
       ) : (
         <Fragment>
           
-          <MobileMenu />
+          <SingleMenu />
         </Fragment>
       )}
     </Fragment>
