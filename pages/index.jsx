@@ -390,7 +390,6 @@ const Index4OnePage = () => {
                     <span>Next.js</span>
                     <span>TypeScript</span>
                     <span>TailwindCSS</span>
-                    <span>Headless UI</span>
                   </div>
                 </h4>
                 <div className="image">
