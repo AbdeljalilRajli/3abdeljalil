@@ -359,7 +359,7 @@ const Index4OnePage = () => {
                     <a target="_blank">Devion - Crafting Dynamic Digital Experiences</a>
                   </Link>
                   <div class="tech-stack">
-                  <span>Next.js</span>
+                    <span>Next.js</span>
                     <span>TypeScript</span>
                     <span>TailwindCSS</span>
                     <span>Sentry</span>
@@ -383,24 +383,24 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
                 <span className="serial-number">02</span>
                 <h4>
-                  <Link legacyBehavior href="https://fuerzastudios.com/">
-                    <a target="_blank">Fuerza Studios - Daylight studio in Cuijk</a>
+                  <Link legacyBehavior href="https://ridelist.vercel.app/">
+                    <a target="_blank">RideList - The ultimate cars platform</a>
                   </Link>
                   <div class="tech-stack">
-                    <span>WordPress</span>
-                    <span>PHP</span>
-                    <span>MySql</span>
-                    <span>JavaScript</span>
+                    <span>Next.js</span>
+                    <span>TypeScript</span>
+                    <span>TailwindCSS</span>
+                    <span>Headless UI</span>
                   </div>
                 </h4>
                 <div className="image">
                   <img
-                    src="assets/images/projects/fuerza-mockup-portfolio.webp"
+                    src=""
                     alt="Project TimeLine Image"
                   />
                 </div>
                 <div className="right-btn">
-                  <a href="#" target="_blank">
+                  <a href="https://ridelist.vercel.app/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
