@@ -395,7 +395,7 @@ const Index4OnePage = () => {
                 </h4>
                 <div className="image">
                   <img
-                    src=""
+                    src="assets/images/projects/ridelist-mockup.webp"
                     alt="Project TimeLine Image"
                   />
                 </div>
