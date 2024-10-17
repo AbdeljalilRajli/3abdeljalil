@@ -1,0 +1,33 @@
+{
+  "name": "folio-react",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^15.22.10",
+    "@next/font": "13.3.0",
+    "@vercel/speed-insights": "^1.0.2",
+    "browserify-fs": "^1.0.0",
+    "contentful": "^10.15.0",
+    "framer-motion": "^10.16.4",
+    "next": "^13.3.0",
+    "react": "18.2.0",
+    "react-bootstrap": "^1.6.1",
+    "react-circular-progressbar": "^2.1.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "18.2.0",
+    "react-icons": "^5.3.0",
+    "react-nice-select": "^1.0.4",
+    "react-player": "^2.12.0",
+    "react-slick": "^0.29.0",
+    "react-visibility-sensor": "^5.1.1",
+    "sass": "^1.72.0",
+    "swiper": "^9.2.2",
+    "wowjs": "^1.1.3"
+  }
+}
