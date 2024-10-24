@@ -31,7 +31,7 @@ export default function App({ Component, pageProps }) {
         {/* Open Graph Meta Tags */}
         <meta property="og:title" content="Abdeljalil Rajli - Full Stack Developer" />
         <meta property="og:description" content="Discover the portfolio of Abdeljalil Rajli, a Full Stack Developer specializing in modern web development." />
-        <meta property="og:image" content="/assets/images/hero/Abdeljalil-website-mockup.webp" />
+        <meta property="og:image" content="/assets/images/projects/Abdeljalil-website-mockup.webp" />
         <meta property="og:url" content="https://www.3abdeljalil.com/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
