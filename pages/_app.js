@@ -28,7 +28,7 @@ export default function App({ Component, pageProps }) {
         {/* Open Graph Meta Tags */}
         <meta property="og:title" content="Abdeljalil Rajli - Full Stack Developer" />
         <meta property="og:description" content="Explore my portfolio as a skilled full stack developer with experience in creating dynamic and responsive web applications." />
-        <meta property="og:image" content="/assets/images/website/abdeljalil-website-mockup.webp" />
+        <meta property="og:image" content="https://www.3abdeljalil.com/assets/images/website/abdeljalil-website-mockup.webp" />
         <meta property="og:url" content="https://www.3abdeljalil.com/" />
         <meta property="og:type" content="website" />
         <meta property="fb:app_id" content="948328050465380" /> {/* Replace with your App ID */}
@@ -37,7 +37,7 @@ export default function App({ Component, pageProps }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Abdeljalil Rajli - Full Stack Developer" />
         <meta name="twitter:description" content="Explore my portfolio as a skilled full stack developer with experience in creating dynamic and responsive web applications." />
-        <meta name="twitter:image" content="/assets/images/website/abdeljalil-website-mockup.webp" /> {/* Same as OG image */}
+        <meta name="twitter:image" content="https://www.3abdeljalil.com/assets/images/website/abdeljalil-website-mockup.webp" /> {/* Same as OG image */}
 
         {/* Favicon Icon */}
         <link
