@@ -31,6 +31,7 @@ export default function App({ Component, pageProps }) {
         <meta property="og:image" content="/assets/images/website/abdeljalil-website-mockup.webp" />
         <meta property="og:url" content="https://www.3abdeljalil.com/" />
         <meta property="og:type" content="website" />
+        <meta property="fb:app_id" content="948328050465380" /> {/* Replace with your App ID */}
         
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
