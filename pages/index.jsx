@@ -353,7 +353,7 @@ const Index4OnePage = () => {
 
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">07</span>
+                <span className="serial-number">02</span>
                 <h4>
                   <Link legacyBehavior href="https://devion-agency.vercel.app/">
                     <a target="_blank">Devion - Crafting Dynamic Digital Experiences</a>
@@ -381,7 +381,7 @@ const Index4OnePage = () => {
 
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">02</span>
+                <span className="serial-number">03</span>
                 <h4>
                   <Link legacyBehavior href="https://ridelist.vercel.app/">
                     <a target="_blank">RideList - The ultimate cars platform</a>
@@ -408,7 +408,7 @@ const Index4OnePage = () => {
 
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-2s">
-                <span className="serial-number">03</span>
+                <span className="serial-number">04</span>
                 <h4>
                   <Link legacyBehavior href="https://www.aquilla.3abdeljalil.website/">
                     <a target="_blank">Aquilla - IT specialized recruitment agency</a>
@@ -436,7 +436,7 @@ const Index4OnePage = () => {
             
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-2s">
-                <span className="serial-number">04</span>
+                <span className="serial-number">05</span>
                 <h4>
                   <Link legacyBehavior href="https://glowink.be/">
                     <a target="_blank">Glowin'k - Permanent make-up & hair loss solutions</a>
@@ -464,7 +464,7 @@ const Index4OnePage = () => {
 
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">05</span>
+                <span className="serial-number">06</span>
                 <h4>
                   <Link legacyBehavior href="https://www.para-organica.ma/">
                     <a target="_blank">Para Organica - Online non-prescription pharmacy</a>
@@ -492,7 +492,7 @@ const Index4OnePage = () => {
 
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-2s">
-                <span className="serial-number">06</span>
+                <span className="serial-number">07</span>
                 <h4>
                   <Link legacyBehavior href="https://www.3abdeljalil.com/">
                     <a target="_blank">Abdeljalil Rajli -  Personal Portfolio using NextJs</a>
