@@ -11,11 +11,11 @@ const DefaultFooter = () => {
           <div className="row align-items-center">
             <div className="col-lg-12 text-lg-center">
               <div className="social-style-four mb-20 wow fadeInLeft delay-0-2s animated">
-                <a href="https://www.linkedin.com/in/abdeljalil-r-02b3a91b3/" target="_blank">
-                  <i className="fab fa-linkedin" /> <span>LINKEDIN</span>
-                </a>
                 <a href="https://github.com/AbdeljalilRajli" target="_blank">
                   <i className="fab fa-github" /> <span>GITHUB</span>
+                </a>
+                <a href="https://www.linkedin.com/in/abdeljalil-r-02b3a91b3/" target="_blank">
+                  <i className="fab fa-linkedin" /> <span>LINKEDIN</span>
                 </a>
                 <a href="https://twitter.com/RajliAbdel42519" target="_blank">
                   <i className="fab fa-twitter" /> <span>TWITTER</span>
@@ -35,16 +35,10 @@ const DefaultFooter = () => {
               </div>
               <div className="footer-contact-info wow fadeInUp delay-0-3s animated">
                 <a
-                  className="theme-btn style-three"
+                  className="theme-btn style-three phone-number"
                   href="mailto:rajli.contact@gmail.com"
                 >
                   rajli.contact@gmail.com <i className="far fa-arrow-right" />
-                </a>
-                <a
-                  className="theme-btn style-three phone-number"
-                  href="callto:+212670277524"
-                >
-                  +212 6 70 27 75 24 <i className="far fa-arrow-right" />
                 </a>
               </div>
             </div>
