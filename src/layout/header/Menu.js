@@ -29,7 +29,7 @@ const SingleMenu = () => {
         <a href="/#skills">skills</a>
       </li>
       <li>
-        <a href="/#projects">project <sup style={{fontWeight:"100",}}>(8)</sup></a>
+        <a href="/#projects">project <sup style={{fontWeight:"100",}}>(6)</sup></a>
       </li>
       <li>
         <a href="/blog">blog</a>
