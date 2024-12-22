@@ -4355,8 +4355,17 @@ h6, .h6 {
   background-position: center center;
   background-repeat: no-repeat; }
 
+  @media only screen and (max-width: 1080px) {
+    .main-footer {
+      background-color: #000000;
+      background-image: url(/assets/images/footer/footer-bg-shape.png);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat; } }
+
 .footer-top {
   border-bottom: 1px solid var(--folio-border-color); }
+  
 
 .lets-work img {
   float: left;
