@@ -30,6 +30,8 @@ const BlogPage = ({ posts }) => {
           </div>
         </div>
       </section>
+
+      {/* Blog Posts Section */}
       <div className={styles.container}>
         <div className={styles.gridContainer}>
           {posts.map((post) => (
