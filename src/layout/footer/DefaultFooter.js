@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 const DefaultFooter = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer
       className="main-footer rel z-1 slug-footer"
@@ -29,7 +31,7 @@ const DefaultFooter = () => {
         </div>
         <div className="row" id="contact">
           <div className="col-lg-12">
-            <div className="pt-80 pb-60" style={{textAlign:"center"}}>
+            <div className="pt-80 pb-60" style={{ textAlign: "center" }}>
               <div className="lets-work mb-50 wow fadeInUp delay-0-2s animated">
                 <span>GET IN TOUCH</span>
               </div>
@@ -49,7 +51,7 @@ const DefaultFooter = () => {
             <div className="col-xl-12 col-lg-12">
               <div className="copyright-text text-lg-end pt-40 pb-35 rpt-10 wow fadeInLeft delay-0-2s animated">
                 <p>
-                  Copyright @2024,{" "}
+                  Copyright © {currentYear},{" "}
                   <Link legacyBehavior href="/">
                     <a>Abdeljalil Rajli</a>
                   </Link>{" "}
@@ -63,4 +65,5 @@ const DefaultFooter = () => {
     </footer>
   );
 };
+
 export default DefaultFooter;
