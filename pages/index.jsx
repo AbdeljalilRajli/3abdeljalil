@@ -323,37 +323,11 @@ const Index4OnePage = () => {
             </div>
           </div>
           <div className="row gap-90">
-          <div className="col-lg-6">
-              <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">01</span>
-                <h4>
-                  <Link legacyBehavior href="https://omnya-bouhamed.vercel.app/">
-                    <a target="_blank">Omnya Bouhamed - Marketing & Communication professional</a>
-                  </Link>
-                  <div class="tech-stack">
-                    <span>Next.js</span>
-                    <span>TypeScript</span>
-                    <span>GSAP</span>
-                    <span>SCSS</span>
-                  </div>
-                </h4>
-                <div className="image">
-                  <img
-                    src="assets/images/projects/omnya-portfolio-mockup.webp"
-                    alt="Project TimeLine Image"
-                  />
-                </div>
-                <div className="right-btn">
-                  <a href="https://omnya-bouhamed.vercel.app/" target="_blank">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
+          
 
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">02</span>
+                <span className="serial-number">01</span>
                 <h4>
                   <Link legacyBehavior href="https://devion-agency.vercel.app/">
                     <a target="_blank">Devion - Crafting Dynamic Digital Experiences</a>
@@ -366,10 +340,14 @@ const Index4OnePage = () => {
                   </div>
                 </h4>
                 <div className="image">
-                  <img
-                    src="assets/images/projects/devion-mockup.webp"
-                    alt="Project TimeLine Image"
-                  />
+                  <Link legacyBehavior href="https://devion-agency.vercel.app/">
+                    <a target="_blank" rel="noopener noreferrer">
+                      <img
+                        src="assets/images/projects/devion-mockup.webp"
+                        alt="Project TimeLine Image"
+                      />
+                    </a>
+                  </Link>
                 </div>
                 <div className="right-btn">
                   <a href="https://devion-agency.vercel.app/" target="_blank">
@@ -381,7 +359,7 @@ const Index4OnePage = () => {
 
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">03</span>
+                <span className="serial-number">02</span>
                 <h4>
                   <Link legacyBehavior href="https://ridelist.vercel.app/">
                     <a target="_blank">RideList - The ultimate cars platform</a>
@@ -393,10 +371,14 @@ const Index4OnePage = () => {
                   </div>
                 </h4>
                 <div className="image">
-                  <img
-                    src="assets/images/projects/ridelist-mockup.webp"
-                    alt="Project TimeLine Image"
-                  />
+                  <Link legacyBehavior href="https://ridelist.vercel.app/">
+                    <a target="_blank" rel="noopener noreferrer">
+                      <img
+                        src="assets/images/projects/ridelist-mockup.webp"
+                        alt="Project TimeLine Image"
+                      />
+                    </a>
+                  </Link>
                 </div>
                 <div className="right-btn">
                   <a href="https://ridelist.vercel.app/" target="_blank">
@@ -467,7 +449,74 @@ const Index4OnePage = () => {
 
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
+                <span className="serial-number">03</span>
+                <h4>
+                  <Link legacyBehavior href="https://www.le-palais-daya.fr/">
+                    <a target="_blank" rel="noopener noreferrer">
+                      Le Palais d'Aya - Jewelry Online Store
+                    </a>
+                  </Link>
+                  <div class="tech-stack">
+                    <span>WordPress</span>
+                    <span>PHP</span>
+                    <span>JavaScript</span>
+                  </div>
+                </h4>
+                <div className="image">
+                  <Link legacyBehavior href="https://www.le-palais-daya.fr/">
+                    <a target="_blank" rel="noopener noreferrer">
+                      <img
+                        src="assets/images/projects/le-alais-d'aya-mocku-min.webp"
+                        alt="Project TimeLine Image"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="right-btn">
+                  <a href="https://www.le-palais-daya.fr/" target="_blank">
+                    <i className="fal fa-long-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="project-timeline-two wow fadeInUp delay-0-2s">
                 <span className="serial-number">04</span>
+                <h4>
+                  <Link legacyBehavior href="https://www.3bdeljalil.com/">
+                    <a target="_blank" rel="noopener noreferrer">
+                      Abdeljalil Rajli -  Personal Portfolio using NextJs
+                    </a>
+                  </Link>
+                  <div class="tech-stack">
+                    <span>Next.js</span>
+                    <span>Motion Framer</span>
+                    <span>Bootstrap</span>
+                    <span>CSS</span>
+                  </div>
+                </h4>
+                <div className="image">
+                  <Link legacyBehavior href="https://www.3bdeljalil.com/">
+                    <a target="_blank" rel="noopener noreferrer">
+                      <img
+                        src="assets/images/projects/My-portfolio-mockup-min.webp"
+                        alt="Project TimeLine Image"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="right-btn">
+                  <a href="https://www.3bdeljalil.com/" target="_blank">
+                    <i className="fal fa-long-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="project-timeline-two wow fadeInUp delay-0-4s">
+                <span className="serial-number">05</span>
                 <h4>
                   <Link legacyBehavior href="https://www.para-organica.ma/">
                     <a target="_blank">Para Organica - Online non-prescription pharmacy</a>
@@ -480,10 +529,14 @@ const Index4OnePage = () => {
                   </div>
                 </h4>
                 <div className="image">
-                  <img
-                    src="assets/images/projects/Para-organica-Mockup.webp"
-                    alt="Project TimeLine Image"
-                  />
+                  <Link legacyBehavior href="https://www.para-organica.ma/">
+                    <a target="_blank" rel="noopener noreferrer">
+                      <img
+                        src="assets/images/projects/Para-organica-Mockup.webp"
+                        alt="Project TimeLine Image"
+                      />
+                    </a>
+                  </Link>
                 </div>
                 <div className="right-btn">
                   <a href="https://www.para-organica.ma/" target="_blank">
@@ -494,54 +547,31 @@ const Index4OnePage = () => {
             </div>
 
             <div className="col-lg-6">
-              <div className="project-timeline-two wow fadeInUp delay-0-2s">
-                <span className="serial-number">05</span>
-                <h4>
-                  <Link legacyBehavior href="https://www.3abdeljalil.com/">
-                    <a target="_blank">Abdeljalil Rajli -  Personal Portfolio using NextJs</a>
-                  </Link>
-                  <div class="tech-stack">
-                    <span>Next.js</span>
-                    <span>Motion Framer</span>
-                    <span>Bootstrap</span>
-                    <span>CSS</span>
-                  </div>
-                </h4>
-                <div className="image">
-                  <img
-                    src="assets/images/projects/My-portfolio-mockup-min.webp"
-                    alt="Project TimeLine Image"
-                  />
-                </div>
-                <div className="right-btn">
-                  <a href="https://www.3abdeljalil.com/" target="_blank">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
                 <span className="serial-number">06</span>
                 <h4>
-                  <Link legacyBehavior href="#">
-                    <a>Drink-B Energy drink store - Figma Template</a>
+                  <Link legacyBehavior href="https://omnya-bouhamed.vercel.app/">
+                    <a target="_blank">Omnya Bouhamed - Marketing & Communication professional</a>
                   </Link>
                   <div class="tech-stack">
-                    <span>Figma</span>
-                    <span>Photoshop</span>
-                    <span>Illustrator</span>
+                    <span>Next.js</span>
+                    <span>TypeScript</span>
+                    <span>GSAP</span>
+                    <span>SCSS</span>
                   </div>
                 </h4>
                 <div className="image">
-                  <img
-                    src="assets/images/projects/DRINK-B-Mockup.webp"
-                    alt="Project TimeLine Image"
-                  />
+                  <Link legacyBehavior href="https://omnya-bouhamed.vercel.app/">
+                    <a target="_blank" rel="noopener noreferrer">
+                      <img
+                        src="assets/images/projects/omnya-portfolio-mockup.webp"
+                        alt="Project TimeLine Image"
+                      />
+                    </a>
+                  </Link>
                 </div>
                 <div className="right-btn">
-                  <a href="#">
+                  <a href="https://omnya-bouhamed.vercel.app/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
