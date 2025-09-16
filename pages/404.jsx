@@ -15,7 +15,7 @@ const E404 = () => {
                 <div className="section-title mb-50 rmb-35">
                   <h2>This Page Can't Be Found</h2>
                 </div>
-                <Link legacyBehavior href="https://www.3abdeljalil.com/">
+                <Link legacyBehavior href="https://www.3bdeljalil.com/">
                   <a className="theme-btn style-two">
                     Go to Home <i className="far fa-arrow-right" />
                   </a>
