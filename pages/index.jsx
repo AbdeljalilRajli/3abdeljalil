@@ -4,6 +4,13 @@ import Link from "next/link";
 import { useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import SplitText from "@/src/components/SplitText";
+
+const handleAnimationComplete = () => {
+
+  console.log('All letters have animated!');
+
+};
 
 const Index4OnePage = () => {
   const ref = useRef(null);
@@ -25,10 +32,40 @@ const Index4OnePage = () => {
         <div className="hero-four-content container container-1290 rel z-1">
           <div className="row gap-20 justify-content-between align-items-center">
             <div className="col-lg-6">
-              <h1 className="hero-section_title1">FULLSTACK</h1>
-              <h1 className="hero-section_title2">DEVELOPER</h1>
-              <p>Enthusiastic full-stack developer with expertise in crafting both 
-              user-facing interfaces and robust back-end systems.</p>
+              {/* Animated SplitText heading */}
+              <SplitText
+                text="FULLSTACK"
+                className="hero-section_title1 text-6xl font-extrabold leading-tight"
+                delay={120}
+                duration={0.6}
+                ease="power3.out"
+                splitType="chars"
+                from={{ opacity: 0, y: 40 }}
+                to={{ opacity: 1, y: 0 }}
+                threshold={0.1}
+                rootMargin="-100px"
+                tag="h1"
+              />
+
+              <SplitText
+                text="DEVELOPER"
+                className="hero-section_title2 text-6xl font-extrabold leading-tight"
+                delay={120}
+                duration={0.6}
+                ease="power3.out"
+                splitType="chars"
+                from={{ opacity: 0, y: 40 }}
+                to={{ opacity: 1, y: 0 }}
+                threshold={0.1}
+                rootMargin="-100px"
+                tag="h1"
+              />
+
+              {/* Static description */}
+              <p className="mt-4 text-lg text-gray-300 max-w-lg">
+                Enthusiastic full-stack developer with expertise in crafting both 
+                user-facing interfaces and robust back-end systems.
+              </p>
             </div>
             <div className="col-lg-6">
               <img className="hero_img shadowfilter" src="assets/images/hero/code-illustration 2.png" alt="Code-illustration" />
