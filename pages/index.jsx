@@ -79,7 +79,6 @@ const Index4OnePage = () => {
             </a>
           </div>
         </div>
-        
       </section>
       {/* Hero Section Start 
       <section

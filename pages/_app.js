@@ -2,6 +2,14 @@ import PreLoader from "@/src/layout/PreLoader";
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Oswald } from "next/font/google";  // 👈 add this
+
+// Configure Oswald
+const oswald = Oswald({
+  subsets: ["latin"],
+  weights: ["200", "300", "400", "500", "600", "700"],
+  display: "swap", // 👈 ensures text renders immediately with fallback font
+});
 
 export default function App({ Component, pageProps }) {
   const [loaded, setLoaded] = useState(false);
@@ -46,12 +54,6 @@ export default function App({ Component, pageProps }) {
           type="image/x-icon"
         />
         
-        {/* Google Fonts */}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-        
         {/* CSS Files */}
         <link rel="stylesheet" href="assets/css/flaticon.min.css" />
         <link rel="stylesheet" href="assets/css/fontawesome-5.14.0.min.css" />
@@ -63,7 +65,9 @@ export default function App({ Component, pageProps }) {
         <link rel="stylesheet" href="assets/css/style.css" />
       </Head>
       
-      {loaded && <Component {...pageProps} />}
+      <main className={oswald.className}>
+        {loaded && <Component {...pageProps} />}
+      </main>
       <SpeedInsights />
     </Fragment>
   );
