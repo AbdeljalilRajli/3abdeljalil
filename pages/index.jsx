@@ -34,7 +34,7 @@ const Index4OnePage = () => {
             <div className="col-lg-6">
               {/* Animated SplitText heading */}
               <SplitText
-                text="FULLSTACK"
+                text="FULLSTACK&nbsp;"
                 className="hero-section_title1 text-6xl font-extrabold leading-tight"
                 delay={120}
                 duration={0.6}
