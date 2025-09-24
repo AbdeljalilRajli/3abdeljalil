@@ -9,6 +9,7 @@ export async function getStaticProps() {
     props: {
       posts,
     },
+    revalidate: 60, // Revalidate every 60 seconds
   };
 }
 
@@ -30,27 +31,27 @@ const BlogPage = ({ posts }) => {
           </div>
         </div>
       </section>
-
       {/* Blog Posts Section */}
       <div className={styles.container}>
         <div className={styles.gridContainer}>
           {posts.map((post) => (
             <div key={post.sys.id} className={styles.gridItem}>
               {post.fields.featuredImage && (
-                <Link href={`/blog/${post.fields.slug}`} passHref>
+                <Link href={`/blog/${post.fields.slug}`}>
                   <img
                     src={`https:${post.fields.featuredImage.fields.file.url}`}
                     alt={post.fields.featuredImage.fields.title || 'Blog Image'}
                     className={styles.image}
+                    style={{ cursor: 'pointer' }}
                   />
                 </Link>
               )}
               <p className={styles.date}>{new Date(post.fields.publishedDate).toDateString()}</p>
-              <Link href={`/blog/${post.fields.slug}`} passHref>
-                <h2 className={styles.title}>{post.fields.title}</h2>
+              <Link href={`/blog/${post.fields.slug}`}>
+                <h2 className={styles.title} style={{ cursor: 'pointer' }}>{post.fields.title}</h2>
               </Link>
               <p className={styles.excerpt}>{post.fields.excerpt}</p>
-              <Link href={`/blog/${post.fields.slug}`} passHref>
+              <Link href={`/blog/${post.fields.slug}`}>
                 <button className={styles.readMoreButton}>Read More</button>
               </Link>
             </div>

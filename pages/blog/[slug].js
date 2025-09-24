@@ -15,17 +15,25 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: true,
+    fallback: 'blocking',
   };
 }
 
 // Function to get the static props for the single blog post page
 export async function getStaticProps({ params }) {
   const post = await fetchEntry(params.slug);
+  
+  if (!post) {
+    return {
+      notFound: true,
+    };
+  }
+  
   return {
     props: {
       post,
     },
+    revalidate: 60, // Revalidate every 60 seconds
   };
 }
 

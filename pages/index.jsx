@@ -5,6 +5,7 @@ import { useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import SplitText from "@/src/components/SplitText";
+import DarkVeil from "@/src/components/DarkVeil";
 
 const handleAnimationComplete = () => {
 
@@ -27,58 +28,182 @@ const Index4OnePage = () => {
       
       <section
         id="home"
-        className="hero-area-four pt-150 rpt-120 pb-120 rpb-50 rel z-1"
+        className="hero-section-reactbits"
+        style={{ 
+          width: '100%', 
+          height: '100vh', 
+          position: 'relative',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          overflow: 'hidden'
+        }}
       >
-        <div className="hero-four-content container container-1290 rel z-1">
-          <div className="row gap-20 justify-content-between align-items-center">
-            <div className="col-lg-6">
-              {/* Animated SplitText heading */}
-              <SplitText
-                text="FULLSTACK&nbsp;"
-                className="hero-section_title1 text-6xl font-extrabold leading-tight"
-                delay={120}
-                duration={0.6}
-                ease="power3.out"
-                splitType="chars"
-                from={{ opacity: 0, y: 40 }}
-                to={{ opacity: 1, y: 0 }}
-                threshold={0.1}
-                rootMargin="-100px"
-                tag="h1"
-              />
-
-              <SplitText
-                text="DEVELOPER"
-                className="hero-section_title2 text-6xl font-extrabold leading-tight"
-                delay={120}
-                duration={0.6}
-                ease="power3.out"
-                splitType="chars"
-                from={{ opacity: 0, y: 40 }}
-                to={{ opacity: 1, y: 0 }}
-                threshold={0.1}
-                rootMargin="-100px"
-                tag="h1"
-              />
-
-              {/* Static description */}
-              <p className="mt-4 text-lg text-gray-300 max-w-lg">
-                Enthusiastic full-stack developer with expertise in crafting both 
-                user-facing interfaces and robust back-end systems.
-              </p>
-            </div>
-            <div className="col-lg-6">
-              <img className="hero_img shadowfilter" src="assets/images/hero/code-illustration 2.png" alt="Code-illustration" />
-            </div>
-          </div>
-          <div className="cta-row">
-            <a href="#about">
-              <button className="btn">
-                <img className="arrow-down" src="assets/images/icons/down-arrow.svg" alt="arrow-down-icon" />
-              </button>
-            </a>
-          </div>
+        {/* Animated Background */}
+        <div style={{ 
+          position: 'absolute', 
+          top: 0, 
+          left: 0, 
+          width: '100%', 
+          height: '100%', 
+          zIndex: 1 
+        }}>
+          <DarkVeil 
+            hueShift={0}
+            speed={0.3}
+            warpAmount={0.1}
+          />
         </div>
+
+        {/* Hero Content */}
+        <div style={{ 
+          position: 'relative', 
+          zIndex: 2, 
+          textAlign: 'center',
+          color: 'white',
+          maxWidth: '800px',
+          padding: '0 20px'
+        }}>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            style={{ marginBottom: '20px' }}
+          >
+            <span style={{
+              display: 'inline-block',
+              padding: '8px 16px',
+              backgroundColor: 'rgba(255, 255, 255, 0.1)',
+              backdropFilter: 'blur(10px)',
+              borderRadius: '50px',
+              border: '1px solid rgba(255, 255, 255, 0.2)',
+              fontSize: '16px',
+              fontWeight: '500',
+              marginBottom: '20px',
+              color: 'rgba(255, 255, 255, 0.9)'
+            }}>
+              Full Stack Developer
+            </span>
+          </motion.div>
+
+          <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            style={{
+              fontSize: 'clamp(2.5rem, 8vw, 5rem)',
+              fontWeight: '800',
+              lineHeight: '1.1',
+              marginBottom: '30px',
+              background: 'linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text'
+            }}
+          >
+            Crafting Digital<br />
+            Experiences with Code
+          </motion.h1>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            style={{ 
+              display: 'flex', 
+              gap: '20px', 
+              justifyContent: 'center',
+              flexWrap: 'wrap',
+              marginTop: '40px'
+            }}
+          >
+            <button 
+              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+              style={{
+              padding: '14px 28px',
+              backgroundColor: '#6a98f0',
+              color: 'white',
+              border: 'none',
+              borderRadius: '50px',
+              fontSize: '16px',
+              fontWeight: '600',
+              cursor: 'pointer',
+              transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+              boxShadow: '0 4px 15px rgba(106, 152, 240, 0.3)',
+              transform: 'translateY(0)'
+            }}
+            onMouseEnter={(e) => {
+              e.target.style.transform = 'translateY(-3px) scale(1.02)';
+              e.target.style.boxShadow = '0 8px 25px rgba(106, 152, 240, 0.4)';
+              e.target.style.backgroundColor = '#5a88e0';
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.transform = 'translateY(0) scale(1)';
+              e.target.style.boxShadow = '0 4px 15px rgba(106, 152, 240, 0.3)';
+              e.target.style.backgroundColor = '#6a98f0';
+            }}>
+View Projects
+            </button>
+            
+            <button 
+              onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+              style={{
+              padding: '14px 28px',
+              backgroundColor: 'transparent',
+              color: '#6a98f0',
+              border: '2px solid #6a98f0',
+              borderRadius: '50px',
+              fontSize: '16px',
+              fontWeight: '600',
+              cursor: 'pointer',
+              transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+              backdropFilter: 'blur(10px)',
+              transform: 'translateY(0)'
+            }}
+            onMouseEnter={(e) => {
+              e.target.style.transform = 'translateY(-3px) scale(1.02)';
+              e.target.style.backgroundColor = '#6a98f0';
+              e.target.style.color = 'white';
+              e.target.style.boxShadow = '0 8px 25px rgba(106, 152, 240, 0.3)';
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.transform = 'translateY(0) scale(1)';
+              e.target.style.backgroundColor = 'transparent';
+              e.target.style.color = '#6a98f0';
+              e.target.style.boxShadow = 'none';
+            }}>
+About Me
+            </button>
+          </motion.div>
+        </div>
+
+        {/* Mobile responsive styles */}
+        <style jsx>{`
+          @media (max-width: 768px) {
+            .hero-section-reactbits {
+              padding: 0 15px;
+            }
+            .hero-section-reactbits h1 {
+              font-size: clamp(2rem, 10vw, 3.5rem) !important;
+              line-height: 1.2 !important;
+            }
+            .hero-section-reactbits button {
+              padding: 12px 24px !important;
+              font-size: 15px !important;
+            }
+          }
+          
+          @media (max-width: 480px) {
+            .hero-section-reactbits div[style*="display: flex"] {
+              flex-direction: column;
+              gap: 15px !important;
+            }
+            .hero-section-reactbits button {
+              width: 100%;
+              max-width: 280px;
+            }
+          }
+        `}</style>
       </section>
       {/* Hero Section Start 
       <section
