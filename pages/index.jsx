@@ -494,9 +494,10 @@ About Me
                     <a target="_blank">RideList - The ultimate cars platform</a>
                   </Link>
                   <div class="tech-stack">
-                    <span>Next.js</span>
+                    <span>React</span>
                     <span>TypeScript</span>
                     <span>TailwindCSS</span>
+                    <span>Firebase</span>
                   </div>
                 </h4>
                 <div className="image">
@@ -590,7 +591,7 @@ About Me
                     <a target="_blank">Devion - Crafting Dynamic Digital Experiences</a>
                   </Link>
                   <div class="tech-stack">
-                    <span>Next.js</span>
+                    <span>React</span>
                     <span>TypeScript</span>
                     <span>TailwindCSS</span>
                     <span>Sentry</span>
@@ -684,7 +685,7 @@ About Me
                     </a>
                   </Link>
                   <div class="tech-stack">
-                    <span>Next.js</span>
+                    <span>React</span>
                     <span>Motion Framer</span>
                     <span>Bootstrap</span>
                     <span>CSS</span>
@@ -708,15 +709,46 @@ About Me
               </div>
             </div>
 
-                        <div className="col-lg-6">
+            <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
                 <span className="serial-number">06</span>
+                <h4>
+                  <Link legacyBehavior href="https://www.para-organica.ma/">
+                    <a target="_blank">WireUp - Everything you need to hire smarter</a>
+                  </Link>
+                  <div class="tech-stack">
+                    <span>React</span>
+                    <span>TypeScriptt</span>
+                    <span>Tailwind CSS</span>
+                  </div>
+                </h4>
+                <div className="image">
+                  <Link legacyBehavior href="https://www.para-organica.ma/">
+                    <a target="_blank" rel="noopener noreferrer">
+                      <img
+                        src="assets/images/projects/wireup-mockup.webp"
+                        alt="Project TimeLine Image"
+                      />
+                    </a>
+                  </Link>
+                </div>
+                <div className="right-btn">
+                  <a href="https://www.para-organica.ma/" target="_blank">
+                    <i className="fal fa-long-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="project-timeline-two wow fadeInUp delay-0-4s">
+                <span className="serial-number">07</span>
                 <h4>
                   <Link legacyBehavior href="https://omnya-bouhamed.vercel.app/">
                     <a target="_blank">Omnya Bouhamed - Marketing & Communication professional</a>
                   </Link>
                   <div class="tech-stack">
-                    <span>Next.js</span>
+                    <span>React</span>
                     <span>TypeScript</span>
                     <span>GSAP</span>
                     <span>SCSS</span>
@@ -742,7 +774,7 @@ About Me
 
             <div className="col-lg-6">
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">07</span>
+                <span className="serial-number">08</span>
                 <h4>
                   <Link legacyBehavior href="https://www.le-palais-daya.fr/">
                     <a target="_blank" rel="noopener noreferrer">
@@ -753,6 +785,7 @@ About Me
                     <span>WordPress</span>
                     <span>PHP</span>
                     <span>JavaScript</span>
+                    <span>MySql</span>
                   </div>
                 </h4>
                 <div className="image">
@@ -767,38 +800,6 @@ About Me
                 </div>
                 <div className="right-btn">
                   <a href="https://www.le-palais-daya.fr/" target="_blank">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="project-timeline-two wow fadeInUp delay-0-4s">
-                <span className="serial-number">08</span>
-                <h4>
-                  <Link legacyBehavior href="https://www.para-organica.ma/">
-                    <a target="_blank">Para Organica - Online non-prescription pharmacy</a>
-                  </Link>
-                  <div class="tech-stack">
-                    <span>WordPress</span>
-                    <span>PHP</span>
-                    <span>MySql</span>
-                    <span>JavaScript</span>
-                  </div>
-                </h4>
-                <div className="image">
-                  <Link legacyBehavior href="https://www.para-organica.ma/">
-                    <a target="_blank" rel="noopener noreferrer">
-                      <img
-                        src="assets/images/projects/Para-organica-Mockup.webp"
-                        alt="Project TimeLine Image"
-                      />
-                    </a>
-                  </Link>
-                </div>
-                <div className="right-btn">
-                  <a href="https://www.para-organica.ma/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
