@@ -71,16 +71,11 @@ const Index4OnePage = () => {
             style={{ marginBottom: '20px' }}
           >
             <span style={{
-              display: 'inline-block',
-              padding: '8px 16px',
-              backgroundColor: 'rgba(255, 255, 255, 0.1)',
-              backdropFilter: 'blur(10px)',
-              borderRadius: '50px',
-              border: '1px solid rgba(255, 255, 255, 0.2)',
-              fontSize: '16px',
-              fontWeight: '500',
-              marginBottom: '20px',
-              color: 'rgba(255, 255, 255, 0.9)'
+              fontSize: '18px',
+              fontWeight: '600',
+              color: '#6a98f0',
+              letterSpacing: '1px',
+              textTransform: 'uppercase'
             }}>
               Full Stack Developer
             </span>
@@ -111,74 +106,43 @@ const Index4OnePage = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             style={{ 
               display: 'flex', 
-              gap: '20px', 
               justifyContent: 'center',
-              flexWrap: 'wrap',
               marginTop: '40px'
             }}
           >
             <button 
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-              style={{
-              padding: '14px 28px',
-              backgroundColor: '#6a98f0',
-              color: 'white',
-              border: 'none',
-              borderRadius: '50px',
-              fontSize: '16px',
-              fontWeight: '600',
-              cursor: 'pointer',
-              transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
-              boxShadow: '0 4px 15px rgba(106, 152, 240, 0.3)',
-              transform: 'translateY(0)'
-            }}
-            onMouseEnter={(e) => {
-              e.target.style.transform = 'translateY(-3px) scale(1.02)';
-              e.target.style.boxShadow = '0 8px 25px rgba(106, 152, 240, 0.4)';
-              e.target.style.backgroundColor = '#5a88e0';
-            }}
-            onMouseLeave={(e) => {
-              e.target.style.transform = 'translateY(0) scale(1)';
-              e.target.style.boxShadow = '0 4px 15px rgba(106, 152, 240, 0.3)';
-              e.target.style.backgroundColor = '#6a98f0';
-            }}>
-View Projects
-            </button>
-            
-            <button 
-              onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-              style={{
-              padding: '14px 28px',
-              backgroundColor: 'transparent',
-              color: '#6a98f0',
-              border: '2px solid #6a98f0',
-              borderRadius: '50px',
-              fontSize: '16px',
-              fontWeight: '600',
-              cursor: 'pointer',
-              transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
-              backdropFilter: 'blur(10px)',
-              transform: 'translateY(0)'
-            }}
-            onMouseEnter={(e) => {
-              e.target.style.transform = 'translateY(-3px) scale(1.02)';
-              e.target.style.backgroundColor = '#6a98f0';
-              e.target.style.color = 'white';
-              e.target.style.boxShadow = '0 8px 25px rgba(106, 152, 240, 0.3)';
-            }}
-            onMouseLeave={(e) => {
-              e.target.style.transform = 'translateY(0) scale(1)';
-              e.target.style.backgroundColor = 'transparent';
-              e.target.style.color = '#6a98f0';
-              e.target.style.boxShadow = 'none';
-            }}>
-About Me
+              className="glassmorphism-button"
+            >
+              View My Works
             </button>
           </motion.div>
         </div>
 
-        {/* Mobile responsive styles */}
+        {/* Glassmorphism Button Styles */}
         <style jsx>{`
+          .glassmorphism-button {
+            padding: 16px 32px;
+            background: rgba(106, 152, 240, 0.1);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(106, 152, 240, 0.3);
+            border-radius: 50px;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 25px rgba(106, 152, 240, 0.15);
+          }
+
+          .glassmorphism-button:hover {
+            background: rgba(106, 152, 240, 0.2);
+            border-color: rgba(106, 152, 240, 0.5);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 35px rgba(106, 152, 240, 0.25);
+          }
+
+          /* Mobile responsive styles */
           @media (max-width: 768px) {
             .hero-section-reactbits {
               padding: 0 15px;
@@ -187,20 +151,18 @@ About Me
               font-size: clamp(2rem, 10vw, 3.5rem) !important;
               line-height: 1.2 !important;
             }
-            .hero-section-reactbits button {
-              padding: 12px 24px !important;
+            .glassmorphism-button {
+              padding: 14px 28px !important;
               font-size: 15px !important;
             }
           }
           
           @media (max-width: 480px) {
-            .hero-section-reactbits div[style*="display: flex"] {
-              flex-direction: column;
-              gap: 15px !important;
-            }
-            .hero-section-reactbits button {
+            .glassmorphism-button {
               width: 100%;
               max-width: 280px;
+              padding: 12px 24px !important;
+              font-size: 14px !important;
             }
           }
         `}</style>
@@ -467,6 +429,32 @@ About Me
         id="projects"
         className="project-timeline-two-area pt-60 pb-60 rpt-20 rel z-1"
       >
+        <style jsx>{`
+          .glassmorphism-button {
+            padding: 16px 32px;
+            background: rgba(106, 152, 240, 0.1);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(106, 152, 240, 0.3);
+            border-radius: 50px;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 25px rgba(106, 152, 240, 0.15);
+            text-decoration: none;
+            display: inline-block;
+          }
+
+          .glassmorphism-button:hover {
+            background: rgba(106, 152, 240, 0.2);
+            border-color: rgba(106, 152, 240, 0.5);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 35px rgba(106, 152, 240, 0.25);
+            color: white;
+            text-decoration: none;
+          }
+        `}</style>
         <div className="container container-1290">
           <div className="row">
             <div className="col-xl-6 col-lg-8">
@@ -476,11 +464,17 @@ About Me
               </div>
             </div>
             <div className="col-xl-6 col-lg-4 text-lg-end">
-              <Link legacyBehavior href="#">
-                <a className="explore-more rmb-50 wow fadeInRight delay-0-2s">
-                  <i className="fas fa-arrow-right" /> <span>Explore more</span>
+              <div className="rmb-50 wow fadeInRight delay-0-2s">
+                <a 
+                  href="https://github.com/AbdeljalilRajli" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="glassmorphism-button"
+                  style={{ textDecoration: 'none' }}
+                >
+                  Explore More on GitHub
                 </a>
-              </Link>
+              </div>
             </div>
           </div>
           <div className="row gap-90">

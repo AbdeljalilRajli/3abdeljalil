@@ -8,6 +8,46 @@ const DefaultFooter = () => {
       className="main-footer rel z-1 slug-footer"
       id="contact"
     >
+      <style jsx>{`
+        .glassmorphism-button {
+          padding: 20px 50px;
+          background: rgba(106, 152, 240, 0.1);
+          backdrop-filter: blur(15px);
+          border: 1px solid rgba(106, 152, 240, 0.3);
+          border-radius: 50px;
+          color: white;
+          font-size: 18px;
+          font-weight: 600;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          box-shadow: 0 8px 25px rgba(106, 152, 240, 0.15);
+          text-decoration: none;
+          display: inline-block;
+        }
+
+        .glassmorphism-button:hover {
+          background: rgba(106, 152, 240, 0.2);
+          border-color: rgba(106, 152, 240, 0.5);
+          transform: translateY(-2px);
+          box-shadow: 0 12px 35px rgba(106, 152, 240, 0.25);
+          color: white;
+          text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+          .glassmorphism-button {
+            padding: 18px 40px;
+            font-size: 17px;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .glassmorphism-button {
+            padding: 16px 32px;
+            font-size: 16px;
+          }
+        }
+      `}</style>
       <div className="container container-1290">
         <div className="footer-top pt-80 pb-60">
           <div className="row align-items-center">
@@ -37,10 +77,11 @@ const DefaultFooter = () => {
               </div>
               <div className="footer-contact-info wow fadeInUp delay-0-3s animated">
                 <a
-                  className="theme-btn style-three phone-number"
+                  className="glassmorphism-button"
                   href="mailto:rajli.contact@gmail.com"
+                  style={{ textDecoration: 'none' }}
                 >
-                  rajli.contact@gmail.com <i className="far fa-arrow-right" />
+                  rajli.contact@gmail.com
                 </a>
               </div>
             </div>
