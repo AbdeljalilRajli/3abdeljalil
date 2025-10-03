@@ -487,7 +487,7 @@ const Index4OnePage = () => {
                   <Link legacyBehavior href="https://ridelist.vercel.app/">
                     <a target="_blank">RideList - The ultimate cars platform</a>
                   </Link>
-                  <div class="tech-stack">
+                  <div className="tech-stack">
                     <span>React</span>
                     <span>TypeScript</span>
                     <span>TailwindCSS</span>
@@ -520,7 +520,7 @@ const Index4OnePage = () => {
                   <Link legacyBehavior href="https://plexia-agency.vercel.app/">
                     <a target="_blank">Plexia - Full service digital marketing agency</a>
                   </Link>
-                  <div class="tech-stack">
+                  <div className="tech-stack">
                     <span>React</span>
                     <span>Three.js</span>
                     <span>TailwindCSS</span>
@@ -552,7 +552,7 @@ const Index4OnePage = () => {
                   <Link legacyBehavior href="https://talentscore-ai.vercel.app/">
                     <a target="_blank">TalentScore - A professional SaaS resumes AI analyzer</a>
                   </Link>
-                  <div class="tech-stack">
+                  <div className="tech-stack">
                     <span>React</span>
                     <span>TypeScript</span>
                     <span>TailwindCSS</span>
@@ -584,7 +584,7 @@ const Index4OnePage = () => {
                   <Link legacyBehavior href="https://devion-agency.vercel.app/">
                     <a target="_blank">Devion - Crafting Dynamic Digital Experiences</a>
                   </Link>
-                  <div class="tech-stack">
+                  <div className="tech-stack">
                     <span>React</span>
                     <span>TypeScript</span>
                     <span>TailwindCSS</span>
@@ -618,7 +618,7 @@ const Index4OnePage = () => {
                   <Link legacyBehavior href="https://www.aquilla.3abdeljalil.website/">
                     <a target="_blank">Aquilla - IT specialized recruitment agency</a>
                   </Link><br />
-                  <div class="tech-stack">
+                  <div className="tech-stack">
                     <span>WordPress</span>
                     <span>PHP</span>
                     <span>MySql</span>
@@ -647,7 +647,7 @@ const Index4OnePage = () => {
                   <Link legacyBehavior href="https://glowink.be/">
                     <a target="_blank">Glowin'k - Permanent make-up & hair loss solutions</a>
                   </Link>
-                  <div class="tech-stack">
+                  <div className="tech-stack">
                     <span>WordPress</span>
                     <span>PHP</span>
                     <span>MySql</span>
@@ -678,7 +678,7 @@ const Index4OnePage = () => {
                       Abdeljalil Rajli -  Personal Portfolio using NextJs
                     </a>
                   </Link>
-                  <div class="tech-stack">
+                  <div className="tech-stack">
                     <span>React</span>
                     <span>Motion Framer</span>
                     <span>Bootstrap</span>
@@ -710,9 +710,9 @@ const Index4OnePage = () => {
                   <Link legacyBehavior href="https://www.para-organica.ma/">
                     <a target="_blank">WireUp - Everything you need to hire smarter</a>
                   </Link>
-                  <div class="tech-stack">
+                  <div className="tech-stack">
                     <span>React</span>
-                    <span>TypeScriptt</span>
+                    <span>TypeScript</span>
                     <span>Tailwind CSS</span>
                   </div>
                 </h4>
@@ -741,7 +741,7 @@ const Index4OnePage = () => {
                   <Link legacyBehavior href="https://omnya-bouhamed.vercel.app/">
                     <a target="_blank">Omnya Bouhamed - Marketing & Communication professional</a>
                   </Link>
-                  <div class="tech-stack">
+                  <div className="tech-stack">
                     <span>React</span>
                     <span>TypeScript</span>
                     <span>GSAP</span>
@@ -775,7 +775,7 @@ const Index4OnePage = () => {
                       Le Palais d'Aya - Jewelry Online Store
                     </a>
                   </Link>
-                  <div class="tech-stack">
+                  <div className="tech-stack">
                     <span>WordPress</span>
                     <span>PHP</span>
                     <span>JavaScript</span>

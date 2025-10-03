@@ -4076,18 +4076,21 @@ h6, .h6 {
 
       .tech-stack {
         display: flex;
-        gap: 10px; /* Space between each tech */
-        margin-top: 10px;
+        flex-wrap: wrap;
+        gap: 8px; /* Space between each tech */
+        margin-top: 12px;
       }
       
       .tech-stack span {
-        margin-top: 10px;
-        font-size: 13px;
-        font-weight: medium;
+        font-size: 11px;
+        font-weight: 500;
         color: #ffffff; /* Text color */
-        background-color: #6a98f0; /* Background color for each tech */
-        padding: 5px 10px;
-        border-radius: 5px;
+        background-color: #4b6caa; /* Background color for each tech */
+        padding: 4px 8px;
+        border-radius: 4px;
+        white-space: nowrap;
+        display: inline-block;
+        line-height: 1.2;
       }
       
 
@@ -4340,29 +4343,46 @@ h6, .h6 {
 
 @media only screen and (min-width: 1400px) {
   .error-image {
-    margin-right: -150px; } }
+    max-width: 500px; } }
 
 /*******************************************************/
 /******************* ## Main Footer *******************/
 /*******************************************************/
+footer.main-footer,
 .main-footer {
-  background-color: #000000;
-  background-image: url(/assets/images/footer/footer-bg-shape.png);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat; }
+  background-color: #000000 !important;
+  background-image: url('/assets/images/footer/footer-bg-shape.png') !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  min-height: 400px !important; }
 
   @media only screen and (max-width: 1080px) {
     .main-footer {
-      background-color: #000000;
-      background-image: url(/assets/images/footer/footer-bg-shape.png);
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat; } }
+      background-color: #000000 !important;
+      background-image: url('/assets/images/footer/footer-bg-shape.png') !important;
+      background-size: cover !important;
+      background-position: center center !important;
+      background-repeat: no-repeat !important; } }
+
+  @media only screen and (max-width: 768px) {
+    .main-footer {
+      background-color: #000000 !important;
+      background-image: url('/assets/images/footer/footer-bg-shape.png') !important;
+      background-size: cover !important;
+      background-position: center center !important;
+      background-repeat: no-repeat !important; } }
+
+  @media only screen and (max-width: 480px) {
+    .main-footer {
+      background-color: #000000 !important;
+      background-image: url('/assets/images/footer/footer-bg-shape.png') !important;
+      background-size: cover !important;
+      background-position: center center !important;
+      background-repeat: no-repeat !important; } }
 
 .footer-top {
   border-bottom: 1px solid var(--folio-border-color); }
-  
 
 .lets-work img {
   float: left;

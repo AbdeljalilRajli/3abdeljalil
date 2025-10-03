@@ -7,6 +7,14 @@ const DefaultFooter = () => {
     <footer
       className="main-footer rel z-1 slug-footer"
       id="contact"
+      style={{
+        backgroundColor: '#000000',
+        backgroundImage: 'url(/assets/images/footer/footer-bg-shape.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+        backgroundRepeat: 'no-repeat',
+        minHeight: '400px'
+      }}
     >
       <style jsx>{`
         .glassmorphism-button {
