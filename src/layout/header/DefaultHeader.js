@@ -42,7 +42,7 @@ const Header = ({ singleMenu }) => {
                 <Link legacyBehavior href="/">
                   <a style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                     <img
-                      src="/assets/images/logos/abdeljalil-main-logo.png"
+                      src="/assets/images/logos/logo-white.png"
                       alt="Abdeljalil Logo"
                       style={{
                         height: '40px',
