@@ -20,7 +20,7 @@ Welcome to my personal portfolio website, built to showcase my full-stack develo
 
 ## 📸 Mockup
 
-![Portfolio Mockup](/public/assets/images/projects/My-portfolio-mockup-min.webp)
+![Portfolio Mockup](/public/assets/images/website/mockup-laptop.webp)
 
 ## 🚀 Installation and Setup
 
