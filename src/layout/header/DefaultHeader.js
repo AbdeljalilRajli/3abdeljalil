@@ -40,7 +40,7 @@ const Header = ({ singleMenu }) => {
             <div className="logo-outer">
               <div className="logo">
                 <Link legacyBehavior href="/">
-                  <a style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <a style={{ display: 'flex', alignItems: 'center', gap: '8px' }} data-cursor="hover">
                     <img
                       src="/assets/images/logos/logo-white.png"
                       alt="Abdeljalil Logo"
@@ -62,6 +62,7 @@ const Header = ({ singleMenu }) => {
                 e.preventDefault();
                 document.getElementById('about')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
               }}
+              data-cursor="hover"
               style={{
                 color: 'white',
                 textDecoration: 'none',
@@ -82,6 +83,7 @@ const Header = ({ singleMenu }) => {
                 e.preventDefault();
                 document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
               }}
+              data-cursor="hover"
               style={{
                 color: 'white',
                 textDecoration: 'none',
@@ -102,6 +104,7 @@ const Header = ({ singleMenu }) => {
                 e.preventDefault();
                 document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
               }}
+              data-cursor="hover"
               style={{
                 color: 'white',
                 textDecoration: 'none',
@@ -117,7 +120,7 @@ const Header = ({ singleMenu }) => {
               Project (8)
             </a>
             <Link legacyBehavior href="/blog">
-              <a style={{
+              <a data-cursor="hover" style={{
                 color: 'white',
                 textDecoration: 'none',
                 fontSize: '15px',
@@ -136,6 +139,7 @@ const Header = ({ singleMenu }) => {
                 e.preventDefault();
                 document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
               }}
+              data-cursor="hover"
               style={{
                 color: 'white',
                 textDecoration: 'none',
@@ -183,6 +187,7 @@ const Header = ({ singleMenu }) => {
         <button
           className="mobile-menu-btn"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          data-cursor="hover"
           style={{
             display: 'none',
             flexDirection: 'column',

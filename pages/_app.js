@@ -1,4 +1,5 @@
 import PreLoader from "@/src/layout/PreLoader";
+import CustomCursor from "@/src/components/CustomCursor";
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -66,6 +67,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       
       <main className={oswald.className}>
+        <CustomCursor />
         {loaded && <Component {...pageProps} />}
       </main>
       <SpeedInsights />
