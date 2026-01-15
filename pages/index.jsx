@@ -498,7 +498,7 @@ const Index4OnePage = () => {
                   <Link legacyBehavior href="https://ridelist.vercel.app/">
                     <a target="_blank" rel="noopener noreferrer">
                       <img
-                        src="assets/images/projects/ridelist-mockup.webp"
+                        src="assets/images/projects/ridelist.webp"
                         alt="Project TimeLine Image"
                       />
                     </a>
@@ -531,7 +531,7 @@ const Index4OnePage = () => {
                   <Link legacyBehavior href="https://plexia-agency.vercel.app/">
                     <a target="_blank" rel="noopener noreferrer">
                       <img
-                        src="assets/images/projects/plexia-mockup.webp"
+                        src="assets/images/projects/plexia.webp"
                         alt="Project TimeLine Image"
                       />
                     </a>
@@ -563,7 +563,7 @@ const Index4OnePage = () => {
                   <Link legacyBehavior href="https://talentscore-ai.vercel.app/">
                     <a target="_blank" rel="noopener noreferrer">
                       <img
-                        src="assets/images/projects/scoretalent-mockup.webp"
+                        src="assets/images/projects/talentscore.webp"
                         alt="Project TimeLine Image"
                       />
                     </a>
@@ -595,7 +595,7 @@ const Index4OnePage = () => {
                   <Link legacyBehavior href="https://devion-agency.vercel.app/">
                     <a target="_blank" rel="noopener noreferrer">
                       <img
-                        src="assets/images/projects/devion-mockup.webp"
+                        src="assets/images/projects/devion.webp"
                         alt="Project TimeLine Image"
                       />
                     </a>
@@ -689,7 +689,7 @@ const Index4OnePage = () => {
                   <Link legacyBehavior href="https://www.3bdeljalil.com/">
                     <a target="_blank" rel="noopener noreferrer">
                       <img
-                        src="assets/images/projects/My-portfolio-mockup-min.webp"
+                        src="assets/images/projects/portfolio.webp"
                         alt="Project TimeLine Image"
                       />
                     </a>
@@ -707,7 +707,7 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-4s">
                 <span className="serial-number">06</span>
                 <h4>
-                  <Link legacyBehavior href="https://www.para-organica.ma/">
+                  <Link legacyBehavior href="https://wire-up.vercel.app/">
                     <a target="_blank">WireUp - Everything you need to hire smarter</a>
                   </Link>
                   <div className="tech-stack">
@@ -717,17 +717,17 @@ const Index4OnePage = () => {
                   </div>
                 </h4>
                 <div className="image">
-                  <Link legacyBehavior href="https://www.para-organica.ma/">
+                  <Link legacyBehavior href="https://wire-up.vercel.app/">
                     <a target="_blank" rel="noopener noreferrer">
                       <img
-                        src="assets/images/projects/wireup-mockup.webp"
+                        src="assets/images/projects/wireup.webp"
                         alt="Project TimeLine Image"
                       />
                     </a>
                   </Link>
                 </div>
                 <div className="right-btn">
-                  <a href="https://www.para-organica.ma/" target="_blank">
+                  <a href="https://wire-up.vercel.app/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
@@ -752,7 +752,7 @@ const Index4OnePage = () => {
                   <Link legacyBehavior href="https://omnya-bouhamed.vercel.app/">
                     <a target="_blank" rel="noopener noreferrer">
                       <img
-                        src="assets/images/projects/omnya-portfolio-mockup.webp"
+                        src="assets/images/projects/omnya.webp"
                         alt="Project TimeLine Image"
                       />
                     </a>
