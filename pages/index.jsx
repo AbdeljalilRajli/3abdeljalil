@@ -673,30 +673,30 @@ const Index4OnePage = () => {
               <div className="project-timeline-two wow fadeInUp delay-0-2s">
                 <span className="serial-number">05</span>
                 <h4>
-                  <Link legacyBehavior href="https://www.3bdeljalil.com/">
+                  <Link legacyBehavior href="https://memora-notes.vercel.app/">
                     <a target="_blank" rel="noopener noreferrer">
-                      Abdeljalil Rajli -  Personal Portfolio using NextJs
+                      Memora - Smart Notes & Knowledge Organizer
                     </a>
                   </Link>
                   <div className="tech-stack">
                     <span>React</span>
-                    <span>Motion Framer</span>
-                    <span>Bootstrap</span>
-                    <span>CSS</span>
+                    <span>Framer Motion</span>
+                    <span>Supabase</span>
+                    <span>Tailwind CSS</span>
                   </div>
                 </h4>
                 <div className="image">
-                  <Link legacyBehavior href="https://www.3bdeljalil.com/">
+                  <Link legacyBehavior href="https://memora-notes.vercel.app/">
                     <a target="_blank" rel="noopener noreferrer">
                       <img
-                        src="assets/images/projects/portfolio.webp"
+                        src="assets/images/projects/memora-mockup.webp"
                         alt="Project TimeLine Image"
                       />
                     </a>
                   </Link>
                 </div>
                 <div className="right-btn">
-                  <a href="https://www.3bdeljalil.com/" target="_blank">
+                  <a href="https://memora-notes.vercel.app/" target="_blank">
                     <i className="fal fa-long-arrow-right" />
                   </a>
                 </div>
