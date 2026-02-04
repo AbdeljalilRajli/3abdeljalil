@@ -744,7 +744,7 @@ const Index4OnePage = () => {
                   <div className="tech-stack">
                     <span>React</span>
                     <span>TypeScript</span>
-                    <span>GSAP</span>
+                    <span>Framer Motion</span>
                     <span>SCSS</span>
                   </div>
                 </h4>
