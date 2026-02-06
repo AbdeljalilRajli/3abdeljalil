@@ -239,7 +239,7 @@ const Index4OnePage = () => {
                       <h2>Experienced <br></br>Full Stack Developer</h2>
                     </div>
                       <p>
-                      As a dedicated full-stack developer, I am passionate about crafting digital experiences 
+                      As a dedicated full stack developer, I am passionate about crafting digital experiences 
                       that blend aesthetics with functionality. With a keen eye for design and a strong foundation 
                       in web technologies, I bring creativity and technical expertise to every project I undertake. 
                       My journey in the world of web development has equipped me with the skills to turn ideas into 
